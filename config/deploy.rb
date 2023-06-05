@@ -1,5 +1,5 @@
-set :application, 'yc2016'
-set :repo_url, 'git@github.com:jujudellago/yc2016.git'
+set :application, 'pointg'
+set :repo_url, 'git@github.com:jujudellago/pointg.git'
 
 # Branch options
 # Prompts for the branch name (defaults to current branch)
@@ -7,7 +7,7 @@ set :repo_url, 'git@github.com:jujudellago/yc2016.git'
 
 # Hardcodes branch to always be master
 # This could be overridden in a stage config file
-set :branch, :master
+set :branch, :main
 @secrets_yml ||= YAML.load_file(File.expand_path("secrets.yml", __dir__))
 
      
