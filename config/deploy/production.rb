@@ -16,7 +16,7 @@ set :deploy_to, -> { "/home/clients/8c7bb93952aa6f7995dd994688db7e0e/sites/lepoi
 
 #SSHKit.config.command_map[:composer] = "php-7.3 /home/clients/d9e7a0ab00bb20eac180d94da2fe2de6/bin/composer/composer.phar"
 
-#SSHKit.config.command_map[:wp] = "~/bin/wp.sh"
+SSHKit.config.command_map[:wp] = "~/bin/wp.sh"
 
 # you can set custom ssh options
 # it's possible to pass any option but you need to keep in mind that net/ssh understand limited list of options
