@@ -58,6 +58,10 @@
     "wpackagist-plugin/wp-optimize" : "*",
     "wpackagist-plugin/regenerate-thumbnails" : "*",	    	
     "wpackagist-plugin/wordpress-importer" : "*",
+    "wpackagist-plugin/wp-all-import" : "*",
+    "wpackagist-plugin/wp-ultimate-csv-importer" : "*",
+    "wpackagist-plugin/wp-all-export" : "*",
+    "wpackagist-plugin/under-construction-page" : "*",
     "wpackagist-plugin/meta-box" : "*",
     "wpackagist-plugin/one-click-demo-import" : "*",
 	"wpackagist-plugin/duplicate-post" : "*"

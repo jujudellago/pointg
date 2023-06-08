@@ -1,0 +1,3919 @@
+# WordPress Blank Pot
+# Copyright (C) 2014 ...
+# This file is distributed under the GNU General Public License v2 or later.
+#, fuzzy
+msgid ""
+msgstr ""
+"Event-Id-Version: Goodresto Pot v1.0.0\n"
+"Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
+"POT-Creation-Date: 2018-08-02 16:24+0400\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Enovathemes Team <enovathemesthemes@gmail.com>\n"
+"Language-Team: Enovathemes <support@enovathemes.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Textdomain-Support: yesX-Generator: Poedit 1.6.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html_x:1,2c;esc_html__;esc_attr_e;"
+"esc_attr_x:1,2c;esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_x:1,2c;_n:1,2;"
+"_n_noop:1,2;__ngettext:1,2;__ngettext_noop:1,2;_c,_nc:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Generator: Poedit 2.1.1\n"
+"Project-Id-Version: \n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:32
+msgid "404 page not found"
+msgstr ""
+
+#: 404.php:54
+msgid "Page not found"
+msgstr ""
+
+#: 404.php:55
+msgid "The page you are looking for could not be found."
+msgstr ""
+
+#: 404.php:62
+msgid "Go to home"
+msgstr ""
+
+#: 404.php:62
+msgid "Homepage"
+msgstr ""
+
+#: comments.php:7
+#, php-format
+msgctxt "comments title"
+msgid "1 comment on"
+msgid_plural "%1$s comments on"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:25
+msgid "Pingback:"
+msgstr ""
+
+#: comments.php:25 comments.php:45
+msgid "Edit"
+msgstr ""
+
+#: comments.php:33
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: comments.php:36
+msgid "Post author"
+msgstr ""
+
+#: comments.php:41
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: comments.php:42
+msgid "Reply"
+msgstr ""
+
+#: comments.php:66
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:67
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:73
+msgid "Comments are closed"
+msgstr ""
+
+#: comments.php:84
+msgid "Name *"
+msgstr ""
+
+#: comments.php:85
+msgid "E-Mail *"
+msgstr ""
+
+#: comments.php:86
+msgid "Website"
+msgstr ""
+
+#: comments.php:94
+msgid "Submit comment"
+msgstr ""
+
+#: functions.php:37
+msgid ""
+"Importing demo data (post, pages, images, theme settings, ...) is the easiest "
+"way to setup your theme."
+msgstr ""
+
+#: functions.php:38
+msgid ""
+"It will allow you to quickly edit everything instead of creating content from "
+"scratch."
+msgstr ""
+
+#: functions.php:41
+msgid "Important things to know before starting demo import"
+msgstr ""
+
+#: functions.php:43
+msgid ""
+"No existing posts, pages, categories, images, custom post types or any other "
+"data will be deleted or modified."
+msgstr ""
+
+#: functions.php:44
+msgid ""
+"Posts, pages, images, widgets, menus and other theme settings will get imported."
+msgstr ""
+
+#: functions.php:45
+msgid ""
+"Please click on the Import button only once and wait, it can take a couple of "
+"minutes."
+msgstr ""
+
+#: functions.php:46
+msgid ""
+"If you want to change the homepage version after import, do not import another "
+"demo, go to WordPress settings >> Reading and choose different homepage version "
+"as your front-page."
+msgstr ""
+
+#: functions.php:47
+msgid ""
+"If you want to import pages/posts/custom post type/menu etc. separately use "
+"regular WordPress importer"
+msgstr ""
+
+#: functions.php:48
+msgid ""
+"Sometimes not all widgets are displayed after the import, this is known issue, "
+"you will need to replace these plugins or re-save one more time"
+msgstr ""
+
+#: functions.php:51
+msgid "What to do after import"
+msgstr ""
+
+#: functions.php:53
+msgid ""
+"After import don't forget to import Revolution Slider separately from Revolution "
+"Slider settings page"
+msgstr ""
+
+#: functions.php:54
+msgid ""
+"All the images will be imported with original sizes without cropping. This way "
+"your import process will be quicker and your server will have less work to do. "
+"After the import completed go to the WordPress >> Tools and use the Regenerate "
+"thumbnails plugin to crop images to theme supported sizes."
+msgstr ""
+
+#: functions.php:57
+msgid "Troubleshooting"
+msgstr ""
+
+#: functions.php:58
+msgid ""
+"If you will have any issues with the import process, please update these option "
+"on your server (edit your php.ini file)"
+msgstr ""
+
+#: functions.php:66
+msgid ""
+"These defaults are not perfect and it depends on how large of an import you are "
+"making. So the bigger the import, the higher the numbers should be."
+msgstr ""
+
+#: functions.php:68
+msgid "Categories are not assigned to posts/custom post types after import"
+msgstr ""
+
+#: functions.php:69
+msgid ""
+"This is known issue of the WordPress import, to fix it, find the wp-import-fix."
+"php file in the snippets folder (your download pack) and upload it in the site "
+"root, after that navigate in the browser window to the www.yoursite.com/ wp-"
+"import-fix.php the script will fix the empty category bug, after that don't "
+"forget to remove the file from the site root."
+msgstr ""
+
+#: functions.php:71
+msgid "Restaurant menu shows errors after import"
+msgstr ""
+
+#: functions.php:72
+msgid ""
+"Don't worry, import is not corrupted, all you have to do is go to appearance >> "
+"theme options and just save the options, no other action is needed"
+msgstr ""
+
+#: functions.php:74
+msgid "After import Shop page shows nothing"
+msgstr ""
+
+#: functions.php:75
+msgid ""
+"Don't worry, you forgot to assign shop/cart/checkout/my-account pages from "
+"Woocommerce settings"
+msgstr ""
+
+#: functions.php:84
+msgid "Main demo (full)"
+msgstr ""
+
+#: functions.php:94 functions.php:108 functions.php:122 functions.php:136
+msgid ""
+"Import process can take up to 10 minutes, so please be patient and do not "
+"interrupt the import process"
+msgstr ""
+
+#: functions.php:98
+msgid "Italian demo"
+msgstr ""
+
+#: functions.php:112
+msgid "Light demo"
+msgstr ""
+
+#: functions.php:126
+msgid "Bakery demo"
+msgstr ""
+
+#: functions.php:301
+msgid "Contact Form 7"
+msgstr ""
+
+#: functions.php:307
+msgid "Woocommerce"
+msgstr ""
+
+#: functions.php:313
+msgid "YITH WooCommerce Quick View"
+msgstr ""
+
+#: functions.php:319
+msgid "YITH WooCommerce Wishlist"
+msgstr ""
+
+#: functions.php:325
+msgid "One Click Demo Import"
+msgstr ""
+
+#: functions.php:330
+msgid "Regenerate Thumbnails"
+msgstr ""
+
+#: functions.php:336
+msgid "Widgets in Menu for WordPress"
+msgstr ""
+
+#: functions.php:342
+msgid "Envato market master"
+msgstr ""
+
+#: functions.php:349
+msgid "WPBakery Visual Composer"
+msgstr ""
+
+#: functions.php:356
+msgid "Revolution slider"
+msgstr ""
+
+#: functions.php:363
+msgid "Enovathemes add-ons"
+msgstr ""
+
+#: functions.php:383 includes/class-tgm-plugin-activation.php:334
+msgid "Install Required Plugins"
+msgstr ""
+
+#: functions.php:384 includes/class-tgm-plugin-activation.php:335
+msgid "Install Plugins"
+msgstr ""
+
+#: functions.php:385 includes/class-tgm-plugin-activation.php:337
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: functions.php:386 includes/class-tgm-plugin-activation.php:340
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: functions.php:387 includes/class-tgm-plugin-activation.php:343
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:388 includes/class-tgm-plugin-activation.php:349
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:389
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin installed."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to install the %s plugins. "
+"Contact the administrator of this site for help on getting the plugins installed."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:390 includes/class-tgm-plugin-activation.php:367
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:391 includes/class-tgm-plugin-activation.php:373
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:392
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin activated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to activate the %s plugins. "
+"Contact the administrator of this site for help on getting the plugins activated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:393 includes/class-tgm-plugin-activation.php:355
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure maximum "
+"compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:394
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin updated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to update the %s plugins. "
+"Contact the administrator of this site for help on getting the plugins updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:395 includes/class-tgm-plugin-activation.php:378
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:396
+msgid "Activate installed plugin"
+msgid_plural "Activate installed plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:397 includes/class-tgm-plugin-activation.php:392
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: functions.php:398 includes/class-tgm-plugin-activation.php:394
+#: includes/class-tgm-plugin-activation.php:3244
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: functions.php:399
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: functions.php:649
+msgid "Header menu left part"
+msgstr ""
+
+#: functions.php:650
+msgid "Header menu right part"
+msgstr ""
+
+#: functions.php:651
+msgid "Header menu"
+msgstr ""
+
+#: functions.php:652
+msgid "Mobile menu"
+msgstr ""
+
+#: functions.php:653
+msgid "Top menu"
+msgstr ""
+
+#: functions.php:654
+msgid "Sidebar menu"
+msgstr ""
+
+#: functions.php:655
+msgid "Fullscreen menu"
+msgstr ""
+
+#: functions.php:656
+msgid "Bullets for one page layout navigation"
+msgstr ""
+
+#: functions.php:657
+msgid "Footer menu"
+msgstr ""
+
+#: functions.php:678
+msgid "Blog widgets"
+msgstr ""
+
+#: functions.php:680
+msgid ""
+"Add your blog widgets here. This is the main blog widget area. It is visible "
+"only in blog archive pages."
+msgstr ""
+
+#: functions.php:690
+msgid "Blog single post page widgets"
+msgstr ""
+
+#: functions.php:692
+msgid ""
+"Add your blog single post widgets here. This widget area is only visible in the "
+"single post page."
+msgstr ""
+
+#: functions.php:702
+msgid "Event widgets"
+msgstr ""
+
+#: functions.php:704
+msgid ""
+"Add your event widgets here. This is the main event widget area. It is visible "
+"only in event archive pages."
+msgstr ""
+
+#: functions.php:714
+msgid "Event single post page widgets"
+msgstr ""
+
+#: functions.php:716
+msgid ""
+"Add your event single post widgets here. This widget area is only visible in the "
+"single post page."
+msgstr ""
+
+#: functions.php:726
+msgid "Restaurant menu widgets"
+msgstr ""
+
+#: functions.php:728
+msgid ""
+"Add your menu widgets here. This is the main menu widget area. It is visible "
+"only in menu archive pages."
+msgstr ""
+
+#: functions.php:738
+msgid "Shop widgets"
+msgstr ""
+
+#: functions.php:740
+msgid ""
+"Add your shop widgets here. This widget area is visible in shop arhive pages "
+"only."
+msgstr ""
+
+#: functions.php:750
+msgid "Shop single post page widgets"
+msgstr ""
+
+#: functions.php:752
+msgid ""
+"Add your shop single product widgets here. This widget area is only visible in "
+"single product page."
+msgstr ""
+
+#: functions.php:763
+msgid "Page widgets #"
+msgstr ""
+
+#: functions.php:765
+msgid "Use this widget area to display widgets in regulare pages."
+msgstr ""
+
+#: functions.php:778
+msgid "Sidebar widgets"
+msgstr ""
+
+#: functions.php:780
+msgid ""
+"Add widgets to global site sidebar. It has toggle in header and is visible in "
+"all pages"
+msgstr ""
+
+#: functions.php:794
+msgid "Menu widgets"
+msgstr ""
+
+#: functions.php:809
+msgid "Footer widgets #"
+msgstr ""
+
+#: functions.php:811
+msgid "Display widgets in footer area."
+msgstr ""
+
+#: functions.php:860 header.php:154 includes/header/header-desk.php:29
+#: includes/header/header-desk.php:59 includes/header/header-desk.php:112
+#: includes/header/header-desk.php:152 includes/header/header-desk.php:190
+#: includes/header/header-desk.php:253 includes/header/header-desk.php:287
+#: includes/header/header-fullscreen.php:27
+msgid "View your shopping cart"
+msgstr ""
+
+#: functions.php:861 header.php:32 header.php:155
+#: includes/header/header-desk.php:30 includes/header/header-desk.php:60
+#: includes/header/header-desk.php:113 includes/header/header-desk.php:153
+#: includes/header/header-desk.php:191 includes/header/header-desk.php:254
+#: includes/header/header-desk.php:288 includes/header/header-fullscreen.php:28
+msgid "Cart"
+msgstr ""
+
+#: functions.php:990 functions.php:1008
+msgid "View "
+msgstr ""
+
+#: functions.php:1114 functions.php:1271 functions.php:1505 functions.php:1735
+#: functions.php:1982 functions.php:2179
+#: woocommerce/content-product-loop-code-list.php:123
+msgid "Out of stock"
+msgstr ""
+
+#: functions.php:1117 functions.php:1274 functions.php:1508 functions.php:1738
+#: functions.php:1985 functions.php:2182
+#: woocommerce/content-product-loop-code-list.php:126
+msgid "Sale!"
+msgstr ""
+
+#: functions.php:1463
+msgid "You may also like"
+msgstr ""
+
+#: functions.php:1519 functions.php:1749 functions.php:1996
+#: woocommerce/content-product-loop-code-list.php:137
+msgid "Product quick view"
+msgstr ""
+
+#: functions.php:1519 functions.php:1749 functions.php:1996
+#: woocommerce/content-product-loop-code-list.php:137
+msgid "Quick view"
+msgstr ""
+
+#: functions.php:1602 functions.php:1832 functions.php:2079
+#: includes/enovathemes-functions.php:148 includes/enovathemes-functions.php:263
+#: includes/enovathemes-functions.php:268 search.php:59
+#: woocommerce/content-product-loop-code-list.php:221
+msgid "Go to"
+msgstr ""
+
+#: functions.php:1690
+msgid "You may be interested in..."
+msgstr ""
+
+#: functions.php:1940 includes/enovathemes_vc.php:4908
+msgid "Related products"
+msgstr ""
+
+#: functions.php:2377
+msgid "No more posts"
+msgstr ""
+
+#: functions.php:2381
+msgid "No more events"
+msgstr ""
+
+#: functions.php:2382
+msgid "Loading events"
+msgstr ""
+
+#: functions.php:2385
+msgid "No more items"
+msgstr ""
+
+#: functions.php:2386
+msgid "Loading items"
+msgstr ""
+
+#: functions.php:2389
+msgid "No more products"
+msgstr ""
+
+#: functions.php:2390
+msgid "Loading products"
+msgstr ""
+
+#: header.php:29 header.php:40 header.php:58
+msgid "close"
+msgstr ""
+
+#: header.php:43 includes/enovathemes_vc.php:1410
+msgid "Booking"
+msgstr ""
+
+#: header.php:84
+msgid "Monday - Friday"
+msgstr ""
+
+#: header.php:91
+msgid "Saturday"
+msgstr ""
+
+#: header.php:98
+msgid "Sunday"
+msgstr ""
+
+#: includes/blog/content-blog-header.php:76
+msgid "Articles posted by"
+msgstr ""
+
+#: includes/blog/content-blog-header.php:81
+msgid "Blog"
+msgstr ""
+
+#: includes/blog/content-blog-loop-code.php:169
+#: includes/blog/content-blog-loop-code.php:188
+#: includes/blog/content-blog-loop-code.php:253
+#: includes/blog/content-blog-loop-code.php:294
+#: includes/blog/content-blog-loop-code.php:329
+#: includes/blog/content-blog-loop-code.php:484
+msgid "Sticky post"
+msgstr ""
+
+#: includes/blog/content-blog-loop-code.php:305
+#: includes/blog/content-blog-loop-code.php:349
+#: includes/blog/content-blog-loop-code.php:473
+#: includes/blog/content-blog-single-code.php:94
+msgid ", "
+msgstr ""
+
+#: includes/blog/content-blog-loop-code.php:311
+#: includes/blog/content-blog-loop-code.php:320
+#: includes/blog/content-blog-loop-code.php:359
+#: includes/blog/content-blog-loop-code.php:441
+#: includes/blog/content-blog-loop-code.php:454
+#: includes/blog/content-blog-loop-code.php:462
+#: includes/blog/content-blog-loop-code.php:480
+#: includes/blog/content-blog-loop-code.php:493
+#: includes/blog/content-blog-single-code.php:339
+#: includes/enovathemes-functions.php:87 includes/enovathemes-functions.php:107
+#: includes/enovathemes-functions.php:116 includes/enovathemes-functions.php:120
+#: includes/enovathemes-functions.php:125
+msgid "Read more about"
+msgstr ""
+
+#: includes/blog/content-blog-loop-code.php:320
+#: includes/blog/content-blog-loop-code.php:376
+#: includes/blog/content-blog-loop-code.php:399
+#: includes/blog/content-blog-loop-code.php:425
+#: includes/blog/content-blog-loop-code.php:462
+#: includes/blog/content-blog-loop-code.php:493
+#: includes/blog/content-blog-single-code.php:199
+#: includes/blog/content-blog-single-code.php:224
+#: includes/blog/content-blog-single-code.php:252
+#: includes/blog/content-blog-single-code.php:281 page.php:19
+msgid "Continue reading"
+msgstr ""
+
+#: includes/blog/content-blog-loop-code.php:377
+#: includes/blog/content-blog-loop-code.php:400
+#: includes/blog/content-blog-loop-code.php:426
+#: includes/blog/content-blog-single-code.php:200
+#: includes/blog/content-blog-single-code.php:225
+#: includes/blog/content-blog-single-code.php:253
+#: includes/blog/content-blog-single-code.php:282 page.php:20
+msgid "Go back"
+msgstr ""
+
+#: includes/blog/content-blog-loop-code.php:449
+msgid "Posted by "
+msgstr ""
+
+#: includes/blog/content-blog-loop-code.php:450
+#: includes/blog/content-blog-loop-code.php:475
+msgid "on "
+msgstr ""
+
+#: includes/blog/content-blog-loop-code.php:473
+msgid "Posted in "
+msgstr ""
+
+#: includes/blog/content-blog-loop-code.php:514
+#: woocommerce/content-product-loop-navigation.php:10
+msgid "Load more"
+msgstr ""
+
+#: includes/blog/content-blog-loop-code.php:515
+#: includes/blog/content-blog-loop-code.php:521
+#: woocommerce/content-product-loop-navigation.php:11
+#: woocommerce/content-product-loop-navigation.php:17
+msgid ""
+"Something went wrong, please try again later or contact the site administrator"
+msgstr ""
+
+#: includes/blog/content-blog-loop.php:24
+msgid ""
+"\"Wide\" blog container does not work with active blog sidebar. Please either "
+"set \"Blog sidebar position\" to \"None\" or switch \"Blog container\" to \"Boxed"
+"\""
+msgstr ""
+
+#: includes/blog/content-blog-single-code.php:92
+msgid "Posted on "
+msgstr ""
+
+#: includes/blog/content-blog-single-code.php:94
+msgid "in "
+msgstr ""
+
+#: includes/blog/content-blog-single-code.php:189
+#, php-format
+msgid "Continue reading %s"
+msgstr ""
+
+#: includes/blog/content-blog-single-code.php:292
+msgid "Tags:"
+msgstr ""
+
+#: includes/blog/content-blog-single-code.php:327
+msgid "Related posts"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:339
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:361
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-tgm-plugin-activation.php:383
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-tgm-plugin-activation.php:388
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-tgm-plugin-activation.php:393
+#: includes/class-tgm-plugin-activation.php:912
+#: includes/class-tgm-plugin-activation.php:2618
+#: includes/class-tgm-plugin-activation.php:3665
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:395
+#: includes/class-tgm-plugin-activation.php:3037
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-tgm-plugin-activation.php:397
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:399
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. Please "
+"update the plugin."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:607
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:608
+msgid "Update Required"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:1019
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug and "
+"renaming did not work."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:1019
+#: includes/class-tgm-plugin-activation.php:1022
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:1022
+msgid ""
+"The remote plugin package consists of more than one file, but the files are not "
+"packaged in a folder."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:1206
+#: includes/class-tgm-plugin-activation.php:3033
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2067
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2358
+msgid "Required"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2361
+msgid "Recommended"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2377
+msgid "WordPress Repository"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2380
+msgid "External Source"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2383
+msgid "Pre-Packaged"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2400
+msgid "Not Installed"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2404
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2406 includes/enovathemes_vc.php:3061
+msgid "Active"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2412
+msgid "Required Update not Available"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2415
+msgid "Requires Update"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2418
+msgid "Update recommended"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2427
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2473
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-tgm-plugin-activation.php:2477
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-tgm-plugin-activation.php:2481
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-tgm-plugin-activation.php:2485
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-tgm-plugin-activation.php:2567
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2575
+msgid "Installed version:"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2583
+msgid "Minimum required version:"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2595
+msgid "Available version:"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2618
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2632
+msgid "Plugin"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2633
+msgid "Source"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2634 includes/enovathemes_vc.php:649
+#: includes/enovathemes_vc.php:722 includes/enovathemes_vc.php:2612
+#: includes/enovathemes_vc.php:2715 includes/enovathemes_vc.php:3034
+msgid "Type"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2638
+msgid "Version"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2639
+msgid "Status"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2688
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2693
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2699
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2769
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2802
+msgid "Install"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2808
+msgid "Update"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2811
+msgid "Activate"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2842
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2844
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2885
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2887
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2993
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3019
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3243
+msgid "Plugin activation failed."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3583
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3586
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3588
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3592
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3594
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3594
+#: includes/class-tgm-plugin-activation.php:3602
+msgid "Show Details"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3594
+#: includes/class-tgm-plugin-activation.php:3602
+msgid "Hide Details"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3595
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3597
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3600
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3602
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3603
+msgid "All installations have been completed."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3605
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: includes/enovathemes-functions.php:17
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: includes/enovathemes-functions.php:250
+msgid "Previous post"
+msgstr ""
+
+#: includes/enovathemes-functions.php:251
+msgid "Next post"
+msgstr ""
+
+#: includes/enovathemes-functions.php:253
+msgid "Previous product"
+msgstr ""
+
+#: includes/enovathemes-functions.php:254
+msgid "Next product"
+msgstr ""
+
+#: includes/enovathemes-functions.php:315
+msgid "No menu items found."
+msgstr ""
+
+#: includes/enovathemes-functions.php:319
+msgid "No event found."
+msgstr ""
+
+#: includes/enovathemes-functions.php:323
+msgid "No products found."
+msgstr ""
+
+#: includes/enovathemes-functions.php:327
+msgid "No search results found. Try a different search"
+msgstr ""
+
+#: includes/enovathemes-functions.php:331
+msgid "No posts found."
+msgstr ""
+
+#: includes/enovathemes_vc.php:19
+msgid "Row stretch"
+msgstr ""
+
+#: includes/enovathemes_vc.php:22
+msgid "No stretching"
+msgstr ""
+
+#: includes/enovathemes_vc.php:23
+msgid "Stretch row"
+msgstr ""
+
+#: includes/enovathemes_vc.php:24
+msgid "Stretch row and content"
+msgstr ""
+
+#: includes/enovathemes_vc.php:27
+msgid ""
+"\"No stretching\" alignes the row with the main theme container, \"Stretch row\" "
+"makes the row full width, but keeps the content of the row aligned with theme "
+"main theme container, \"Stretch row and content\" makes the row and content full "
+"width"
+msgstr ""
+
+#: includes/enovathemes_vc.php:33 includes/enovathemes_vc.php:56
+#: includes/enovathemes_vc.php:3568
+msgid "Columns gap"
+msgstr ""
+
+#: includes/enovathemes_vc.php:37 includes/enovathemes_vc.php:60
+msgid "0px"
+msgstr ""
+
+#: includes/enovathemes_vc.php:38 includes/enovathemes_vc.php:61
+msgid "2px"
+msgstr ""
+
+#: includes/enovathemes_vc.php:39 includes/enovathemes_vc.php:62
+msgid "4px"
+msgstr ""
+
+#: includes/enovathemes_vc.php:40 includes/enovathemes_vc.php:63
+msgid "8px"
+msgstr ""
+
+#: includes/enovathemes_vc.php:41 includes/enovathemes_vc.php:64
+msgid "16px"
+msgstr ""
+
+#: includes/enovathemes_vc.php:42 includes/enovathemes_vc.php:65
+msgid "24px"
+msgstr ""
+
+#: includes/enovathemes_vc.php:43 includes/enovathemes_vc.php:66
+msgid "32px"
+msgstr ""
+
+#: includes/enovathemes_vc.php:44 includes/enovathemes_vc.php:67
+msgid "40px"
+msgstr ""
+
+#: includes/enovathemes_vc.php:45 includes/enovathemes_vc.php:68
+msgid "48px"
+msgstr ""
+
+#: includes/enovathemes_vc.php:46 includes/enovathemes_vc.php:69
+msgid "56px"
+msgstr ""
+
+#: includes/enovathemes_vc.php:47 includes/enovathemes_vc.php:70
+msgid "64px"
+msgstr ""
+
+#: includes/enovathemes_vc.php:48 includes/enovathemes_vc.php:71
+msgid "72px"
+msgstr ""
+
+#: includes/enovathemes_vc.php:49 includes/enovathemes_vc.php:72
+msgid "80px"
+msgstr ""
+
+#: includes/enovathemes_vc.php:78 includes/enovathemes_vc.php:80
+#: includes/enovathemes_vc.php:85 includes/enovathemes_vc.php:93
+#: includes/enovathemes_vc.php:274 includes/enovathemes_vc.php:276
+#: includes/enovathemes_vc.php:281 includes/enovathemes_vc.php:289
+#: includes/enovathemes_vc.php:2070
+msgid "Parallax"
+msgstr ""
+
+#: includes/enovathemes_vc.php:86 includes/enovathemes_vc.php:282
+msgid "Parallax image"
+msgstr ""
+
+#: includes/enovathemes_vc.php:94 includes/enovathemes_vc.php:290
+msgid "Parallax speed"
+msgstr ""
+
+#: includes/enovathemes_vc.php:96 includes/enovathemes_vc.php:164
+#: includes/enovathemes_vc.php:292
+msgid "Enter parallax speed ratio (Note: Default value is 1.5, min value is 1)"
+msgstr ""
+
+#: includes/enovathemes_vc.php:103
+msgid "Video background"
+msgstr ""
+
+#: includes/enovathemes_vc.php:105 includes/enovathemes_vc.php:110
+#: includes/enovathemes_vc.php:118 includes/enovathemes_vc.php:126
+#: includes/enovathemes_vc.php:134 includes/enovathemes_vc.php:142
+#: includes/enovathemes_vc.php:152 includes/enovathemes_vc.php:161
+msgid "Video"
+msgstr ""
+
+#: includes/enovathemes_vc.php:111
+msgid "Video background mp4 file url"
+msgstr ""
+
+#: includes/enovathemes_vc.php:119
+msgid "Video background webm file url"
+msgstr ""
+
+#: includes/enovathemes_vc.php:127
+msgid "Video background ogv file url"
+msgstr ""
+
+#: includes/enovathemes_vc.php:135
+msgid "Video overlay"
+msgstr ""
+
+#: includes/enovathemes_vc.php:143
+msgid "Video placeholder"
+msgstr ""
+
+#: includes/enovathemes_vc.php:150
+msgid "Video parallax"
+msgstr ""
+
+#: includes/enovathemes_vc.php:162
+msgid "Video background parallax speed"
+msgstr ""
+
+#: includes/enovathemes_vc.php:173
+msgid "Fixed background"
+msgstr ""
+
+#: includes/enovathemes_vc.php:174 includes/enovathemes_vc.php:181
+msgid "Fixed"
+msgstr ""
+
+#: includes/enovathemes_vc.php:180
+msgid "Fixed background image"
+msgstr ""
+
+#: includes/enovathemes_vc.php:189
+msgid "Animated background"
+msgstr ""
+
+#: includes/enovathemes_vc.php:190 includes/enovathemes_vc.php:197
+#: includes/enovathemes_vc.php:209 includes/enovathemes_vc.php:217
+msgid "Animated"
+msgstr ""
+
+#: includes/enovathemes_vc.php:196
+msgid "Animated background direction"
+msgstr ""
+
+#: includes/enovathemes_vc.php:200 includes/enovathemes_vc.php:3037
+msgid "Horizontal"
+msgstr ""
+
+#: includes/enovathemes_vc.php:201 includes/enovathemes_vc.php:3038
+msgid "Vertical"
+msgstr ""
+
+#: includes/enovathemes_vc.php:208
+msgid "Animated background speed in ms (default is 35000)"
+msgstr ""
+
+#: includes/enovathemes_vc.php:216
+msgid "Animated background image"
+msgstr ""
+
+#: includes/enovathemes_vc.php:225 includes/enovathemes_vc.php:351
+msgid "ms"
+msgstr ""
+
+#: includes/enovathemes_vc.php:230 includes/enovathemes_vc.php:2161
+msgid "Animation delay in ms (example 300)"
+msgstr ""
+
+#: includes/enovathemes_vc.php:238 includes/enovathemes_vc.php:240
+#: includes/enovathemes_vc.php:245 includes/enovathemes_vc.php:254
+#: includes/enovathemes_vc.php:300 includes/enovathemes_vc.php:302
+#: includes/enovathemes_vc.php:307 includes/enovathemes_vc.php:316
+msgid "Transitions"
+msgstr ""
+
+#: includes/enovathemes_vc.php:246 includes/enovathemes_vc.php:308
+#: includes/enovathemes_vc.php:1984 includes/enovathemes_vc.php:2366
+#: includes/enovathemes_vc.php:3118 includes/enovathemes_vc.php:3234
+#: includes/enovathemes_vc.php:3312 includes/enovathemes_vc.php:3417
+#: includes/menu/edit_custom_walker.php:222
+msgid "Upload image"
+msgstr ""
+
+#: includes/enovathemes_vc.php:253 includes/enovathemes_vc.php:315
+msgid "Transition type"
+msgstr ""
+
+#: includes/enovathemes_vc.php:257 includes/enovathemes_vc.php:319
+msgid "Fade"
+msgstr ""
+
+#: includes/enovathemes_vc.php:258 includes/enovathemes_vc.php:320
+#: includes/enovathemes_vc.php:3815
+msgid "Scale down"
+msgstr ""
+
+#: includes/enovathemes_vc.php:259 includes/enovathemes_vc.php:321
+msgid "Zoom"
+msgstr ""
+
+#: includes/enovathemes_vc.php:355
+msgid "Date"
+msgstr ""
+
+#: includes/enovathemes_vc.php:356
+msgid "ID"
+msgstr ""
+
+#: includes/enovathemes_vc.php:357
+msgid "Author"
+msgstr ""
+
+#: includes/enovathemes_vc.php:358 includes/enovathemes_vc.php:1989
+#: includes/enovathemes_vc.php:2750 includes/enovathemes_vc.php:2846
+#: includes/enovathemes_vc.php:3009 includes/enovathemes_vc.php:3084
+#: includes/enovathemes_vc.php:3138 includes/enovathemes_vc.php:3239
+#: includes/enovathemes_vc.php:3317 includes/enovathemes_vc.php:3453
+#: includes/enovathemes_vc.php:3602 includes/enovathemes_vc.php:3962
+msgid "Title"
+msgstr ""
+
+#: includes/enovathemes_vc.php:359
+msgid "Modified"
+msgstr ""
+
+#: includes/enovathemes_vc.php:360 includes/enovathemes_vc.php:429
+#: includes/enovathemes_vc.php:2250 includes/enovathemes_vc.php:2638
+msgid "Random"
+msgstr ""
+
+#: includes/enovathemes_vc.php:361
+msgid "Comment count"
+msgstr ""
+
+#: includes/enovathemes_vc.php:362
+msgid "Menu order"
+msgstr ""
+
+#: includes/enovathemes_vc.php:366
+msgid "Descending"
+msgstr ""
+
+#: includes/enovathemes_vc.php:367
+msgid "Ascending"
+msgstr ""
+
+#: includes/enovathemes_vc.php:371
+msgid "IN"
+msgstr ""
+
+#: includes/enovathemes_vc.php:372
+msgid "NOT IN"
+msgstr ""
+
+#: includes/enovathemes_vc.php:373
+msgid "AND"
+msgstr ""
+
+#: includes/enovathemes_vc.php:377 includes/enovathemes_vc.php:427
+#: includes/enovathemes_vc.php:1748 includes/enovathemes_vc.php:1760
+#: includes/enovathemes_vc.php:2011 includes/enovathemes_vc.php:2219
+#: includes/enovathemes_vc.php:3254 includes/enovathemes_vc.php:3332
+#: includes/enovathemes_vc.php:3814
+msgid "None"
+msgstr ""
+
+#: includes/enovathemes_vc.php:378
+msgid "Fade In"
+msgstr ""
+
+#: includes/enovathemes_vc.php:379
+msgid "Move Up"
+msgstr ""
+
+#: includes/enovathemes_vc.php:383
+msgid "Small (1/4 - 25%)"
+msgstr ""
+
+#: includes/enovathemes_vc.php:384
+msgid "Medium (1/3 - 33%)"
+msgstr ""
+
+#: includes/enovathemes_vc.php:385
+msgid "Large (1/2 - 50%)"
+msgstr ""
+
+#: includes/enovathemes_vc.php:389 includes/enovathemes_vc.php:396
+#: includes/enovathemes_vc.php:2599
+msgid "Small"
+msgstr ""
+
+#: includes/enovathemes_vc.php:390 includes/enovathemes_vc.php:397
+msgid "Medium"
+msgstr ""
+
+#: includes/enovathemes_vc.php:391 includes/enovathemes_vc.php:398
+#: includes/enovathemes_vc.php:2600
+msgid "Large"
+msgstr ""
+
+#: includes/enovathemes_vc.php:395
+msgid "Extra small"
+msgstr ""
+
+#: includes/enovathemes_vc.php:399
+msgid "Extra large"
+msgstr ""
+
+#: includes/enovathemes_vc.php:400
+msgid "Extra Extra large"
+msgstr ""
+
+#: includes/enovathemes_vc.php:416 includes/enovathemes_vc.php:1011
+#: includes/enovathemes_vc.php:1716
+msgid "Left"
+msgstr ""
+
+#: includes/enovathemes_vc.php:417 includes/enovathemes_vc.php:1012
+#: includes/enovathemes_vc.php:1717
+msgid "Right"
+msgstr ""
+
+#: includes/enovathemes_vc.php:418
+msgid "Center"
+msgstr ""
+
+#: includes/enovathemes_vc.php:422
+msgid "False"
+msgstr ""
+
+#: includes/enovathemes_vc.php:423
+msgid "True"
+msgstr ""
+
+#: includes/enovathemes_vc.php:428 includes/enovathemes_vc.php:2249
+#: includes/enovathemes_vc.php:2637
+msgid "Sequential"
+msgstr ""
+
+#: includes/enovathemes_vc.php:450
+msgid "Overlay none"
+msgstr ""
+
+#: includes/enovathemes_vc.php:451 includes/enovathemes_vc.php:2380
+msgid "Overlay fade"
+msgstr ""
+
+#: includes/enovathemes_vc.php:452 includes/enovathemes_vc.php:2381
+msgid "Overlay fade with image zoom"
+msgstr ""
+
+#: includes/enovathemes_vc.php:453 includes/enovathemes_vc.php:2382
+msgid "Overlay fade with extreme image zoom"
+msgstr ""
+
+#: includes/enovathemes_vc.php:454 includes/enovathemes_vc.php:2395
+msgid "Overlay move fluid"
+msgstr ""
+
+#: includes/enovathemes_vc.php:455 includes/enovathemes_vc.php:2396
+msgid "Overlay scale in"
+msgstr ""
+
+#: includes/enovathemes_vc.php:456 includes/enovathemes_vc.php:2071
+#: includes/enovathemes_vc.php:2078 includes/enovathemes_vc.php:2088
+#: includes/enovathemes_vc.php:2098
+msgid "Transform"
+msgstr ""
+
+#: includes/enovathemes_vc.php:460
+msgid "Caption up"
+msgstr ""
+
+#: includes/enovathemes_vc.php:464 includes/enovathemes_vc.php:2615
+#: includes/enovathemes_vc.php:4019 includes/enovathemes_vc.php:4119
+#: includes/enovathemes_vc.php:4274 includes/enovathemes_vc.php:4431
+#: includes/enovathemes_vc.php:4521 includes/enovathemes_vc.php:4601
+#: includes/enovathemes_vc.php:4681 includes/enovathemes_vc.php:4745
+#: includes/enovathemes_vc.php:4825 includes/enovathemes_vc.php:4921
+#: includes/enovathemes_vc.php:5005 includes/enovathemes_vc.php:5068
+msgid "Grid"
+msgstr ""
+
+#: includes/enovathemes_vc.php:465 includes/enovathemes_vc.php:1901
+#: includes/enovathemes_vc.php:2195 includes/enovathemes_vc.php:2616
+#: includes/enovathemes_vc.php:4020 includes/enovathemes_vc.php:4123
+#: includes/enovathemes_vc.php:4276 includes/enovathemes_vc.php:4433
+#: includes/enovathemes_vc.php:4523 includes/enovathemes_vc.php:4603
+#: includes/enovathemes_vc.php:4683 includes/enovathemes_vc.php:4747
+#: includes/enovathemes_vc.php:4827 includes/enovathemes_vc.php:4923
+#: includes/enovathemes_vc.php:5007 includes/enovathemes_vc.php:5070
+msgid "Carousel"
+msgstr ""
+
+#: includes/enovathemes_vc.php:471
+msgid "px"
+msgstr ""
+
+#: includes/enovathemes_vc.php:497
+msgid "Signature"
+msgstr ""
+
+#: includes/enovathemes_vc.php:498
+msgid "Insert animate signature"
+msgstr ""
+
+#: includes/enovathemes_vc.php:499 includes/enovathemes_vc.php:546
+#: includes/enovathemes_vc.php:641 includes/enovathemes_vc.php:714
+#: includes/enovathemes_vc.php:789 includes/enovathemes_vc.php:866
+#: includes/enovathemes_vc.php:905 includes/enovathemes_vc.php:929
+#: includes/enovathemes_vc.php:956 includes/enovathemes_vc.php:1026
+#: includes/enovathemes_vc.php:1059 includes/enovathemes_vc.php:1144
+#: includes/enovathemes_vc.php:1249 includes/enovathemes_vc.php:1317
+#: includes/enovathemes_vc.php:1367 includes/enovathemes_vc.php:1412
+#: includes/enovathemes_vc.php:1425 includes/enovathemes_vc.php:1500
+#: includes/enovathemes_vc.php:1576 includes/enovathemes_vc.php:1786
+#: includes/enovathemes_vc.php:1903 includes/enovathemes_vc.php:1958
+#: includes/enovathemes_vc.php:1976 includes/enovathemes_vc.php:2178
+#: includes/enovathemes_vc.php:2300 includes/enovathemes_vc.php:2354
+#: includes/enovathemes_vc.php:2438 includes/enovathemes_vc.php:2492
+#: includes/enovathemes_vc.php:2546 includes/enovathemes_vc.php:2580
+#: includes/enovathemes_vc.php:2687 includes/enovathemes_vc.php:2768
+#: includes/enovathemes_vc.php:2838 includes/enovathemes_vc.php:2877
+#: includes/enovathemes_vc.php:2879 includes/enovathemes_vc.php:2913
+#: includes/enovathemes_vc.php:2959 includes/enovathemes_vc.php:3022
+#: includes/enovathemes_vc.php:3114 includes/enovathemes_vc.php:3163
+#: includes/enovathemes_vc.php:3279 includes/enovathemes_vc.php:3353
+#: includes/enovathemes_vc.php:3444 includes/enovathemes_vc.php:3543
+#: includes/enovathemes_vc.php:3661 includes/enovathemes_vc.php:3746
+#: includes/enovathemes_vc.php:3914 includes/enovathemes_vc.php:3999
+#: includes/enovathemes_vc.php:4108 includes/enovathemes_vc.php:4254
+#: includes/enovathemes_vc.php:4407 includes/enovathemes_vc.php:4420
+#: includes/enovathemes_vc.php:4510 includes/enovathemes_vc.php:4590
+#: includes/enovathemes_vc.php:4670 includes/enovathemes_vc.php:4734
+#: includes/enovathemes_vc.php:4814 includes/enovathemes_vc.php:4910
+#: includes/enovathemes_vc.php:4973 includes/enovathemes_vc.php:4994
+#: includes/enovathemes_vc.php:5057 includes/enovathemes_vc.php:5128
+msgid "Enovathemes"
+msgstr ""
+
+#: includes/enovathemes_vc.php:507
+msgid "Paste the svg code here"
+msgstr ""
+
+#: includes/enovathemes_vc.php:512 includes/enovathemes_vc.php:598
+#: includes/enovathemes_vc.php:659 includes/enovathemes_vc.php:746
+#: includes/enovathemes_vc.php:874 includes/enovathemes_vc.php:2825
+msgid "Color"
+msgstr ""
+
+#: includes/enovathemes_vc.php:518
+msgid "Width in px (without any string)"
+msgstr ""
+
+#: includes/enovathemes_vc.php:525 includes/enovathemes_vc.php:689
+#: includes/enovathemes_vc.php:770 includes/enovathemes_vc.php:853
+#: includes/enovathemes_vc.php:892
+msgid "Align"
+msgstr ""
+
+#: includes/enovathemes_vc.php:544
+msgid "Typeit"
+msgstr ""
+
+#: includes/enovathemes_vc.php:545
+msgid "Insert animate typewrite"
+msgstr ""
+
+#: includes/enovathemes_vc.php:555
+msgid "Typeit type"
+msgstr ""
+
+#: includes/enovathemes_vc.php:556 includes/enovathemes_vc.php:570
+#: includes/enovathemes_vc.php:578 includes/enovathemes_vc.php:584
+#: includes/enovathemes_vc.php:591 includes/enovathemes_vc.php:1621
+#: includes/enovathemes_vc.php:1629 includes/enovathemes_vc.php:1646
+#: includes/enovathemes_vc.php:1831 includes/enovathemes_vc.php:1839
+#: includes/enovathemes_vc.php:1856
+msgid "Typography"
+msgstr ""
+
+#: includes/enovathemes_vc.php:558
+msgid "H1"
+msgstr ""
+
+#: includes/enovathemes_vc.php:559
+msgid "H2"
+msgstr ""
+
+#: includes/enovathemes_vc.php:560
+msgid "H3"
+msgstr ""
+
+#: includes/enovathemes_vc.php:561
+msgid "H4"
+msgstr ""
+
+#: includes/enovathemes_vc.php:562
+msgid "H5"
+msgstr ""
+
+#: includes/enovathemes_vc.php:563
+msgid "H6"
+msgstr ""
+
+#: includes/enovathemes_vc.php:564
+msgid "p"
+msgstr ""
+
+#: includes/enovathemes_vc.php:569 includes/enovathemes_vc.php:2790
+msgid "Font size (without any string)"
+msgstr ""
+
+#: includes/enovathemes_vc.php:577 includes/enovathemes_vc.php:2797
+msgid "Font weight (without any string)"
+msgstr ""
+
+#: includes/enovathemes_vc.php:585 includes/enovathemes_vc.php:2813
+msgid "Line height (without any string)"
+msgstr ""
+
+#: includes/enovathemes_vc.php:592 includes/enovathemes_vc.php:2819
+msgid "Letter spacing (without any string)"
+msgstr ""
+
+#: includes/enovathemes_vc.php:605 includes/enovathemes_vc.php:2425
+#: includes/enovathemes_vc.php:3981
+msgid "Text align"
+msgstr ""
+
+#: includes/enovathemes_vc.php:611
+msgid "Autostart"
+msgstr ""
+
+#: includes/enovathemes_vc.php:616
+msgid "Start delay in ms"
+msgstr ""
+
+#: includes/enovathemes_vc.php:622
+msgid "Main title"
+msgstr ""
+
+#: includes/enovathemes_vc.php:628 includes/enovathemes_vc.php:919
+#: includes/enovathemes_vc.php:943 includes/enovathemes_vc.php:1773
+#: includes/enovathemes_vc.php:1890
+msgid "Custom class"
+msgstr ""
+
+#: includes/enovathemes_vc.php:639
+msgid "Separator"
+msgstr ""
+
+#: includes/enovathemes_vc.php:640 includes/enovathemes_vc.php:713
+#: includes/enovathemes_vc.php:788 includes/enovathemes_vc.php:865
+msgid "Use this element to separate content"
+msgstr ""
+
+#: includes/enovathemes_vc.php:652
+msgid "solid"
+msgstr ""
+
+#: includes/enovathemes_vc.php:653
+msgid "dotted"
+msgstr ""
+
+#: includes/enovathemes_vc.php:654
+msgid "dashed"
+msgstr ""
+
+#: includes/enovathemes_vc.php:665 includes/enovathemes_vc.php:758
+#: includes/enovathemes_vc.php:829 includes/enovathemes_vc.php:880
+msgid "Gap from top (without any string)"
+msgstr ""
+
+#: includes/enovathemes_vc.php:671 includes/enovathemes_vc.php:764
+#: includes/enovathemes_vc.php:835 includes/enovathemes_vc.php:886
+msgid "Gap from bottom (without any string)"
+msgstr ""
+
+#: includes/enovathemes_vc.php:677
+#, php-format
+msgid "Width (without any string, if you want 100% leave blank)"
+msgstr ""
+
+#: includes/enovathemes_vc.php:683 includes/enovathemes_vc.php:847
+msgid "Height (without any string, if you want 1px leave blank)"
+msgstr ""
+
+#: includes/enovathemes_vc.php:695 includes/enovathemes_vc.php:1485
+msgid "Animate"
+msgstr ""
+
+#: includes/enovathemes_vc.php:701 includes/enovathemes_vc.php:776
+#: includes/enovathemes_vc.php:3986
+msgid "Extra class"
+msgstr ""
+
+#: includes/enovathemes_vc.php:712
+msgid "Decorative separator"
+msgstr ""
+
+#: includes/enovathemes_vc.php:725
+msgid "separator 1"
+msgstr ""
+
+#: includes/enovathemes_vc.php:726
+msgid "separator 2"
+msgstr ""
+
+#: includes/enovathemes_vc.php:727
+msgid "separator 3"
+msgstr ""
+
+#: includes/enovathemes_vc.php:728
+msgid "separator 4"
+msgstr ""
+
+#: includes/enovathemes_vc.php:729
+msgid "separator 5"
+msgstr ""
+
+#: includes/enovathemes_vc.php:730
+msgid "separator 6"
+msgstr ""
+
+#: includes/enovathemes_vc.php:731
+msgid "separator 7"
+msgstr ""
+
+#: includes/enovathemes_vc.php:732
+msgid "separator 8"
+msgstr ""
+
+#: includes/enovathemes_vc.php:733
+msgid "separator 9"
+msgstr ""
+
+#: includes/enovathemes_vc.php:734
+msgid "separator 10"
+msgstr ""
+
+#: includes/enovathemes_vc.php:735
+msgid "separator 11"
+msgstr ""
+
+#: includes/enovathemes_vc.php:736
+msgid "separator 12"
+msgstr ""
+
+#: includes/enovathemes_vc.php:737
+msgid "separator 13"
+msgstr ""
+
+#: includes/enovathemes_vc.php:738
+msgid "separator 14"
+msgstr ""
+
+#: includes/enovathemes_vc.php:739
+msgid "separator 15"
+msgstr ""
+
+#: includes/enovathemes_vc.php:740
+msgid "separator 16"
+msgstr ""
+
+#: includes/enovathemes_vc.php:741
+msgid "separator 17"
+msgstr ""
+
+#: includes/enovathemes_vc.php:752 includes/enovathemes_vc.php:1162
+#: includes/enovathemes_vc.php:1449 includes/enovathemes_vc.php:1526
+#: includes/enovathemes_vc.php:1996 includes/enovathemes_vc.php:2201
+#: includes/enovathemes_vc.php:2372
+msgid "Size"
+msgstr ""
+
+#: includes/enovathemes_vc.php:787
+msgid "Icon separator"
+msgstr ""
+
+#: includes/enovathemes_vc.php:797 includes/enovathemes_vc.php:964
+#: includes/enovathemes_vc.php:1433 includes/enovathemes_vc.php:1510
+#: includes/enovathemes_vc.php:1695 includes/enovathemes_vc.php:2995
+#: includes/enovathemes_vc.php:3070 includes/enovathemes_vc.php:3513
+#: includes/enovathemes_vc.php:3834
+msgid "Icon prefix"
+msgstr ""
+
+#: includes/enovathemes_vc.php:800 includes/enovathemes_vc.php:967
+#: includes/enovathemes_vc.php:1436 includes/enovathemes_vc.php:1513
+#: includes/enovathemes_vc.php:1699 includes/enovathemes_vc.php:2998
+#: includes/enovathemes_vc.php:3073 includes/enovathemes_vc.php:3517
+#: includes/enovathemes_vc.php:3835
+msgid ""
+"If you want to use custom icons, you need to paste here the icon prefix, but if "
+"you want to use Fontawesome icons, leave this option blank"
+msgstr ""
+
+#: includes/enovathemes_vc.php:804 includes/enovathemes_vc.php:971
+#: includes/enovathemes_vc.php:1441 includes/enovathemes_vc.php:1518
+#: includes/enovathemes_vc.php:1703 includes/enovathemes_vc.php:3002
+#: includes/enovathemes_vc.php:3077 includes/enovathemes_vc.php:3521
+#: includes/enovathemes_vc.php:3842
+msgid "Icon name"
+msgstr ""
+
+#: includes/enovathemes_vc.php:807 includes/enovathemes_vc.php:974
+#: includes/enovathemes_vc.php:1444 includes/enovathemes_vc.php:1521
+#: includes/enovathemes_vc.php:1707 includes/enovathemes_vc.php:3005
+#: includes/enovathemes_vc.php:3080 includes/enovathemes_vc.php:3525
+#: includes/enovathemes_vc.php:3845
+msgid ""
+"Add icon name, for example fa-gear. Make sure you did not forget about icon "
+"prefix option"
+msgstr ""
+
+#: includes/enovathemes_vc.php:812 includes/enovathemes_vc.php:979
+#: includes/enovathemes_vc.php:3530
+msgid "Icon size"
+msgstr ""
+
+#: includes/enovathemes_vc.php:817
+msgid "Separator color"
+msgstr ""
+
+#: includes/enovathemes_vc.php:823 includes/enovathemes_vc.php:996
+#: includes/enovathemes_vc.php:1348 includes/enovathemes_vc.php:1455
+#: includes/enovathemes_vc.php:1532 includes/enovathemes_vc.php:3855
+msgid "Icon color"
+msgstr ""
+
+#: includes/enovathemes_vc.php:841
+msgid "Separator width (without any string)"
+msgstr ""
+
+#: includes/enovathemes_vc.php:864
+msgid "Dottes separator"
+msgstr ""
+
+#: includes/enovathemes_vc.php:903 includes/enovathemes_vc.php:1933
+#: includes/enovathemes_vc.php:2288 includes/enovathemes_vc.php:2334
+#: includes/enovathemes_vc.php:2656 includes/enovathemes_vc.php:3218
+#: includes/enovathemes_vc.php:3390
+msgid "Gap"
+msgstr ""
+
+#: includes/enovathemes_vc.php:904
+msgid "Insert space"
+msgstr ""
+
+#: includes/enovathemes_vc.php:913 includes/enovathemes_vc.php:937
+msgid "Gap size (without any string)"
+msgstr ""
+
+#: includes/enovathemes_vc.php:927
+msgid "Gap inline"
+msgstr ""
+
+#: includes/enovathemes_vc.php:928
+msgid "Insert horizontal space"
+msgstr ""
+
+#: includes/enovathemes_vc.php:954
+msgid "Popup message"
+msgstr ""
+
+#: includes/enovathemes_vc.php:955
+msgid "Insert popup message with icon"
+msgstr ""
+
+#: includes/enovathemes_vc.php:984
+msgid "Message"
+msgstr ""
+
+#: includes/enovathemes_vc.php:990
+msgid "Message width (without any string)"
+msgstr ""
+
+#: includes/enovathemes_vc.php:1002
+msgid "Popup color"
+msgstr ""
+
+#: includes/enovathemes_vc.php:1008
+msgid "Direction"
+msgstr ""
+
+#: includes/enovathemes_vc.php:1013
+msgid "Top"
+msgstr ""
+
+#: includes/enovathemes_vc.php:1014
+msgid "Bottom"
+msgstr ""
+
+#: includes/enovathemes_vc.php:1024
+msgid "Alert"
+msgstr ""
+
+#: includes/enovathemes_vc.php:1025
+msgid "Insert alert"
+msgstr ""
+
+#: includes/enovathemes_vc.php:1034
+msgid "Message type"
+msgstr ""
+
+#: includes/enovathemes_vc.php:1037
+msgid "Note"
+msgstr ""
+
+#: includes/enovathemes_vc.php:1038
+msgid "Success"
+msgstr ""
+
+#: includes/enovathemes_vc.php:1039
+msgid "Warning"
+msgstr ""
+
+#: includes/enovathemes_vc.php:1040
+msgid "Error"
+msgstr ""
+
+#: includes/enovathemes_vc.php:1041
+msgid "Information"
+msgstr ""
+
+#: includes/enovathemes_vc.php:1058
+msgid "Navigation menu"
+msgstr ""
+
+#: includes/enovathemes_vc.php:1058
+msgid "Insert navigation menu"
+msgstr ""
+
+#: includes/enovathemes_vc.php:1067
+msgid "Menu name"
+msgstr ""
+
+#: includes/enovathemes_vc.php:1073
+msgid "Menu container"
+msgstr ""
+
+#: includes/enovathemes_vc.php:1079
+msgid "Menu container class"
+msgstr ""
+
+#: includes/enovathemes_vc.php:1085
+msgid "Menu container id"
+msgstr ""
+
+#: includes/enovathemes_vc.php:1091
+msgid "Menu class"
+msgstr ""
+
+#: includes/enovathemes_vc.php:1097
+msgid "Menu id"
+msgstr ""
+
+#: includes/enovathemes_vc.php:1103
+msgid "Menu before"
+msgstr ""
+
+#: includes/enovathemes_vc.php:1109
+msgid "Menu after"
+msgstr ""
+
+#: includes/enovathemes_vc.php:1115
+msgid "Menu link before"
+msgstr ""
+
+#: includes/enovathemes_vc.php:1121
+msgid "Menu link after"
+msgstr ""
+
+#: includes/enovathemes_vc.php:1142
+msgid "Social icons"
+msgstr ""
+
+#: includes/enovathemes_vc.php:1143
+msgid "Use this element to add social service icons"
+msgstr ""
+
+#: includes/enovathemes_vc.php:1153 includes/enovathemes_vc.php:1599
+#: includes/enovathemes_vc.php:1809 includes/enovathemes_vc.php:3646
+msgid "Target"
+msgstr ""
+
+#: includes/enovathemes_vc.php:1168 includes/enovathemes_vc.php:1175
+#: includes/enovathemes_vc.php:1184 includes/enovathemes_vc.php:1193
+#: includes/enovathemes_vc.php:1202 includes/enovathemes_vc.php:1211
+#: includes/enovathemes_vc.php:1220 includes/enovathemes_vc.php:1228
+#: includes/enovathemes_vc.php:1235 includes/enovathemes_vc.php:1653
+#: includes/enovathemes_vc.php:1660 includes/enovathemes_vc.php:1667
+#: includes/enovathemes_vc.php:1674 includes/enovathemes_vc.php:1681
+#: includes/enovathemes_vc.php:1689 includes/enovathemes_vc.php:1863
+#: includes/enovathemes_vc.php:1870
+msgid "Styling"
+msgstr ""
+
+#: includes/enovathemes_vc.php:1169
+msgid "Original styling"
+msgstr ""
+
+#: includes/enovathemes_vc.php:1174 includes/enovathemes_vc.php:1257
+msgid "Icon color regular"
+msgstr ""
+
+#: includes/enovathemes_vc.php:1183 includes/enovathemes_vc.php:1264
+#: includes/enovathemes_vc.php:3886
+msgid "Icon color hover"
+msgstr ""
+
+#: includes/enovathemes_vc.php:1192 includes/enovathemes_vc.php:1271
+msgid "Icon background color regular"
+msgstr ""
+
+#: includes/enovathemes_vc.php:1201 includes/enovathemes_vc.php:1278
+#: includes/enovathemes_vc.php:3893
+msgid "Icon background color hover"
+msgstr ""
+
+#: includes/enovathemes_vc.php:1210 includes/enovathemes_vc.php:1285
+msgid "Icon border color regular"
+msgstr ""
+
+#: includes/enovathemes_vc.php:1219 includes/enovathemes_vc.php:1292
+#: includes/enovathemes_vc.php:3900
+msgid "Icon border color hover"
+msgstr ""
+
+#: includes/enovathemes_vc.php:1227 includes/enovathemes_vc.php:1298
+#: includes/enovathemes_vc.php:1473 includes/enovathemes_vc.php:1550
+#: includes/enovathemes_vc.php:3796
+msgid "Icon border radius (without any string)"
+msgstr ""
+
+#: includes/enovathemes_vc.php:1234 includes/enovathemes_vc.php:1304
+#: includes/enovathemes_vc.php:1479 includes/enovathemes_vc.php:1556
+#: includes/enovathemes_vc.php:3873
+msgid "Icon border width (without any string)"
+msgstr ""
+
+#: includes/enovathemes_vc.php:1247
+msgid "Social share"
+msgstr ""
+
+#: includes/enovathemes_vc.php:1248
+msgid "Use this element to add social share"
+msgstr ""
+
+#: includes/enovathemes_vc.php:1315
+msgid "Tweets"
+msgstr ""
+
+#: includes/enovathemes_vc.php:1316
+msgid "Insert recent tweets"
+msgstr ""
+
+#: includes/enovathemes_vc.php:1325
+msgid "Enter the twitter ID"
+msgstr ""
+
+#: includes/enovathemes_vc.php:1332
+msgid "Number of tweets"
+msgstr ""
+
+#: includes/enovathemes_vc.php:1354
+msgid "Text color"
+msgstr ""
+
+#: includes/enovathemes_vc.php:1365
+msgid "Mailchimp"
+msgstr ""
+
+#: includes/enovathemes_vc.php:1366
+msgid "Insert mailchimp subscribe"
+msgstr ""
+
+#: includes/enovathemes_vc.php:1375
+msgid "Align to the center"
+msgstr ""
+
+#: includes/enovathemes_vc.php:1381
+msgid "Action"
+msgstr ""
+
+#: includes/enovathemes_vc.php:1387
+msgid "Name"
+msgstr ""
+
+#: includes/enovathemes_vc.php:1393
+msgid "Email field placeholder text"
+msgstr ""
+
+#: includes/enovathemes_vc.php:1395
+msgid "Enter your email"
+msgstr ""
+
+#: includes/enovathemes_vc.php:1399
+msgid "Button placeholder text"
+msgstr ""
+
+#: includes/enovathemes_vc.php:1401
+msgid "Subscribe"
+msgstr ""
+
+#: includes/enovathemes_vc.php:1411
+msgid "Insert AJAX booking form"
+msgstr ""
+
+#: includes/enovathemes_vc.php:1423 includes/enovathemes_vc.php:1696
+#: includes/enovathemes_vc.php:1704 includes/enovathemes_vc.php:1713
+#: includes/enovathemes_vc.php:3514 includes/enovathemes_vc.php:3522
+#: includes/enovathemes_vc.php:3531
+msgid "Icon"
+msgstr ""
+
+#: includes/enovathemes_vc.php:1424
+msgid "Insert icon"
+msgstr ""
+
+#: includes/enovathemes_vc.php:1461 includes/enovathemes_vc.php:1538
+#: includes/enovathemes_vc.php:3861
+msgid "Icon background color"
+msgstr ""
+
+#: includes/enovathemes_vc.php:1467 includes/enovathemes_vc.php:1544
+#: includes/enovathemes_vc.php:3867
+msgid "Icon border color"
+msgstr ""
+
+#: includes/enovathemes_vc.php:1488 includes/menu/edit_custom_walker.php:191
+#: includes/menu/edit_custom_walker.php:252
+msgid "false"
+msgstr ""
+
+#: includes/enovathemes_vc.php:1489 includes/menu/edit_custom_walker.php:192
+#: includes/menu/edit_custom_walker.php:253
+msgid "true"
+msgstr ""
+
+#: includes/enovathemes_vc.php:1499
+msgid "Icon list"
+msgstr ""
+
+#: includes/enovathemes_vc.php:1501
+msgid "Insert icon list"
+msgstr ""
+
+#: includes/enovathemes_vc.php:1562 includes/enovathemes_vc.php:3626
+msgid "List items"
+msgstr ""
+
+#: includes/enovathemes_vc.php:1565 includes/enovathemes_vc.php:3629
+msgid "Use line break (press Enter) to separate between items"
+msgstr ""
+
+#: includes/enovathemes_vc.php:1574 includes/enovathemes_vc.php:3472
+#: includes/enovathemes_vc.php:3479 includes/enovathemes_vc.php:3486
+#: includes/enovathemes_vc.php:3493 includes/enovathemes_vc.php:3500
+#: includes/enovathemes_vc.php:3507
+msgid "Button"
+msgstr ""
+
+#: includes/enovathemes_vc.php:1575
+msgid "Insert button"
+msgstr ""
+
+#: includes/enovathemes_vc.php:1585 includes/enovathemes_vc.php:1795
+#: includes/enovathemes_vc.php:3471 includes/enovathemes_vc.php:3633
+msgid "Button text"
+msgstr ""
+
+#: includes/enovathemes_vc.php:1592 includes/enovathemes_vc.php:1802
+#: includes/enovathemes_vc.php:3478 includes/enovathemes_vc.php:3639
+msgid "Button link"
+msgstr ""
+
+#: includes/enovathemes_vc.php:1607 includes/enovathemes_vc.php:1817
+msgid "Open link in modal window?"
+msgstr ""
+
+#: includes/enovathemes_vc.php:1614 includes/enovathemes_vc.php:1824
+msgid "Button size"
+msgstr ""
+
+#: includes/enovathemes_vc.php:1620 includes/enovathemes_vc.php:1830
+msgid "Button font size (without any string)"
+msgstr ""
+
+#: includes/enovathemes_vc.php:1628 includes/enovathemes_vc.php:1838
+msgid "Button font weight (without any string)"
+msgstr ""
+
+#: includes/enovathemes_vc.php:1645 includes/enovathemes_vc.php:1855
+msgid "Button letter spacing (without any string)"
+msgstr ""
+
+#: includes/enovathemes_vc.php:1652 includes/enovathemes_vc.php:1862
+#: includes/enovathemes_vc.php:3485
+msgid "Button color"
+msgstr ""
+
+#: includes/enovathemes_vc.php:1659 includes/enovathemes_vc.php:3492
+msgid "Button background color"
+msgstr ""
+
+#: includes/enovathemes_vc.php:1666
+msgid "Button border color"
+msgstr ""
+
+#: includes/enovathemes_vc.php:1673 includes/enovathemes_vc.php:1869
+msgid "Button border radius (without any string)"
+msgstr ""
+
+#: includes/enovathemes_vc.php:1680
+msgid "Button border width (without any string)"
+msgstr ""
+
+#: includes/enovathemes_vc.php:1688
+msgid "Button shadow ?"
+msgstr ""
+
+#: includes/enovathemes_vc.php:1712
+msgid "Icon position"
+msgstr ""
+
+#: includes/enovathemes_vc.php:1723 includes/enovathemes_vc.php:1876
+#: includes/enovathemes_vc.php:3499
+msgid "Button color hover"
+msgstr ""
+
+#: includes/enovathemes_vc.php:1724 includes/enovathemes_vc.php:1731
+#: includes/enovathemes_vc.php:1738 includes/enovathemes_vc.php:1745
+#: includes/enovathemes_vc.php:1877 includes/enovathemes_vc.php:2044
+#: includes/enovathemes_vc.php:2054 includes/enovathemes_vc.php:2226
+#: includes/enovathemes_vc.php:2236
+msgid "Hover"
+msgstr ""
+
+#: includes/enovathemes_vc.php:1730 includes/enovathemes_vc.php:3506
+msgid "Button background color hover"
+msgstr ""
+
+#: includes/enovathemes_vc.php:1737
+msgid "Button border color hover"
+msgstr ""
+
+#: includes/enovathemes_vc.php:1744 includes/enovathemes_vc.php:3810
+msgid "Hover animation"
+msgstr ""
+
+#: includes/enovathemes_vc.php:1749
+msgid "Fill"
+msgstr ""
+
+#: includes/enovathemes_vc.php:1750 includes/enovathemes_vc.php:3818
+msgid "Glint"
+msgstr ""
+
+#: includes/enovathemes_vc.php:1751
+msgid "Scale"
+msgstr ""
+
+#: includes/enovathemes_vc.php:1756
+msgid "Click animation"
+msgstr ""
+
+#: includes/enovathemes_vc.php:1757 includes/enovathemes_vc.php:1767
+#: includes/enovathemes_vc.php:1884
+msgid "Click"
+msgstr ""
+
+#: includes/enovathemes_vc.php:1761
+msgid "Material"
+msgstr ""
+
+#: includes/enovathemes_vc.php:1766 includes/enovathemes_vc.php:1883
+msgid "Smooth Click animation"
+msgstr ""
+
+#: includes/enovathemes_vc.php:1784
+msgid "3D Button"
+msgstr ""
+
+#: includes/enovathemes_vc.php:1785
+msgid "Insert 3D button"
+msgstr ""
+
+#: includes/enovathemes_vc.php:1902
+msgid "Insert carousel with any content you want"
+msgstr ""
+
+#: includes/enovathemes_vc.php:1916 includes/enovathemes_vc.php:2268
+#: includes/enovathemes_vc.php:2321 includes/enovathemes_vc.php:2622
+#: includes/enovathemes_vc.php:3207 includes/enovathemes_vc.php:3373
+#: includes/enovathemes_vc.php:3556 includes/enovathemes_vc.php:3759
+msgid "Column"
+msgstr ""
+
+#: includes/enovathemes_vc.php:1939 includes/enovathemes_vc.php:3182
+#: includes/enovathemes_vc.php:3292
+msgid "Navigation type"
+msgstr ""
+
+#: includes/enovathemes_vc.php:1941 includes/enovathemes_vc.php:3184
+#: includes/enovathemes_vc.php:3294
+msgid "Only arrows"
+msgstr ""
+
+#: includes/enovathemes_vc.php:1942 includes/enovathemes_vc.php:3185
+#: includes/enovathemes_vc.php:3295
+msgid "Only dottes"
+msgstr ""
+
+#: includes/enovathemes_vc.php:1943 includes/enovathemes_vc.php:3186
+#: includes/enovathemes_vc.php:3296
+msgid "Both arrows and dottes"
+msgstr ""
+
+#: includes/enovathemes_vc.php:1949
+msgid "Autoplay"
+msgstr ""
+
+#: includes/enovathemes_vc.php:1957
+msgid "Insert carousel item"
+msgstr ""
+
+#: includes/enovathemes_vc.php:1974
+msgid "Image"
+msgstr ""
+
+#: includes/enovathemes_vc.php:1975
+msgid "Insert single image"
+msgstr ""
+
+#: includes/enovathemes_vc.php:2001 includes/enovathemes_vc.php:2209
+msgid "Caption"
+msgstr ""
+
+#: includes/enovathemes_vc.php:2004
+msgid ""
+"Check this option if you want to have caption on image. Make sure Title is not "
+"empty"
+msgstr ""
+
+#: includes/enovathemes_vc.php:2008 includes/enovathemes_vc.php:2216
+msgid "Link to"
+msgstr ""
+
+#: includes/enovathemes_vc.php:2012 includes/enovathemes_vc.php:2220
+msgid "Attachment"
+msgstr ""
+
+#: includes/enovathemes_vc.php:2013 includes/enovathemes_vc.php:2221
+msgid "Lightbox"
+msgstr ""
+
+#: includes/enovathemes_vc.php:2014
+msgid "Custom"
+msgstr ""
+
+#: includes/enovathemes_vc.php:2019 includes/enovathemes_vc.php:2459
+#: includes/enovathemes_vc.php:2513
+msgid "Modal"
+msgstr ""
+
+#: includes/enovathemes_vc.php:2022
+msgid "Check this option if you want to open the link content in modal box."
+msgstr ""
+
+#: includes/enovathemes_vc.php:2028 includes/enovathemes_vc.php:2416
+#: includes/enovathemes_vc.php:3130 includes/enovathemes_vc.php:3429
+msgid "Link target"
+msgstr ""
+
+#: includes/enovathemes_vc.php:2037
+msgid "Image custom link"
+msgstr ""
+
+#: includes/enovathemes_vc.php:2065
+msgid "Alignment"
+msgstr ""
+
+#: includes/enovathemes_vc.php:2077
+msgid "Parallax X coordinate"
+msgstr ""
+
+#: includes/enovathemes_vc.php:2087
+msgid "Parallax Y coordinate"
+msgstr ""
+
+#: includes/enovathemes_vc.php:2097
+msgid "Parallax speed radtio"
+msgstr ""
+
+#: includes/enovathemes_vc.php:2099
+msgid "The more the value is the slower the parallax effect is"
+msgstr ""
+
+#: includes/enovathemes_vc.php:2129 includes/enovathemes_vc.php:2130
+#: includes/enovathemes_vc.php:2137 includes/enovathemes_vc.php:2152
+#: includes/enovathemes_vc.php:2162
+msgid "Curtain effect"
+msgstr ""
+
+#: includes/enovathemes_vc.php:2136
+msgid "Curtain direction"
+msgstr ""
+
+#: includes/enovathemes_vc.php:2140
+msgid "Left to Right"
+msgstr ""
+
+#: includes/enovathemes_vc.php:2141
+msgid "Right to Left"
+msgstr ""
+
+#: includes/enovathemes_vc.php:2142
+msgid "Top to bottom"
+msgstr ""
+
+#: includes/enovathemes_vc.php:2143
+msgid "Bottom to top"
+msgstr ""
+
+#: includes/enovathemes_vc.php:2151
+msgid "Curtain color"
+msgstr ""
+
+#: includes/enovathemes_vc.php:2176
+msgid "Simple gallery"
+msgstr ""
+
+#: includes/enovathemes_vc.php:2177
+msgid "Insert image gallery"
+msgstr ""
+
+#: includes/enovathemes_vc.php:2186 includes/enovathemes_vc.php:2309
+msgid "Upload images"
+msgstr ""
+
+#: includes/enovathemes_vc.php:2191
+msgid "Gallery type"
+msgstr ""
+
+#: includes/enovathemes_vc.php:2194
+msgid "Grid/Masonry"
+msgstr ""
+
+#: includes/enovathemes_vc.php:2212
+msgid "Check this option if you want to have caption on image"
+msgstr ""
+
+#: includes/enovathemes_vc.php:2247 includes/enovathemes_vc.php:2635
+#: includes/enovathemes_vc.php:3193
+msgid "Animation type"
+msgstr ""
+
+#: includes/enovathemes_vc.php:2259 includes/enovathemes_vc.php:2647
+#: includes/enovathemes_vc.php:3200
+msgid "Animation effect"
+msgstr ""
+
+#: includes/enovathemes_vc.php:2298
+msgid "Image slider"
+msgstr ""
+
+#: includes/enovathemes_vc.php:2299
+msgid "Insert image slider"
+msgstr ""
+
+#: includes/enovathemes_vc.php:2315
+msgid "Image Size"
+msgstr ""
+
+#: includes/enovathemes_vc.php:2340
+msgid "Include thumbnails"
+msgstr ""
+
+#: includes/enovathemes_vc.php:2343
+msgid "Check this option if you want to have slider thumbnails"
+msgstr ""
+
+#: includes/enovathemes_vc.php:2353
+msgid "Image with content"
+msgstr ""
+
+#: includes/enovathemes_vc.php:2355
+msgid "Insert single image with content on hover"
+msgstr ""
+
+#: includes/enovathemes_vc.php:2377
+msgid "Overlay"
+msgstr ""
+
+#: includes/enovathemes_vc.php:2383
+msgid "Overlay move up"
+msgstr ""
+
+#: includes/enovathemes_vc.php:2384
+msgid "Overlay move down"
+msgstr ""
+
+#: includes/enovathemes_vc.php:2385
+msgid "Overlay move left"
+msgstr ""
+
+#: includes/enovathemes_vc.php:2386
+msgid "Overlay move right"
+msgstr ""
+
+#: includes/enovathemes_vc.php:2387
+msgid "Image move up"
+msgstr ""
+
+#: includes/enovathemes_vc.php:2388
+msgid "Image move down"
+msgstr ""
+
+#: includes/enovathemes_vc.php:2389
+msgid "Image move left"
+msgstr ""
+
+#: includes/enovathemes_vc.php:2390
+msgid "Image move right"
+msgstr ""
+
+#: includes/enovathemes_vc.php:2391
+msgid "Overlay and image move up"
+msgstr ""
+
+#: includes/enovathemes_vc.php:2392
+msgid "Overlay and image move down"
+msgstr ""
+
+#: includes/enovathemes_vc.php:2393
+msgid "Overlay and image move left"
+msgstr ""
+
+#: includes/enovathemes_vc.php:2394
+msgid "Overlay and image move right"
+msgstr ""
+
+#: includes/enovathemes_vc.php:2397
+msgid "Overlay flip horizontal"
+msgstr ""
+
+#: includes/enovathemes_vc.php:2398
+msgid "Overlay flip vertical"
+msgstr ""
+
+#: includes/enovathemes_vc.php:2403
+msgid "Overlay color"
+msgstr ""
+
+#: includes/enovathemes_vc.php:2409
+msgid "Image link"
+msgstr ""
+
+#: includes/enovathemes_vc.php:2436
+msgid "Youtube"
+msgstr ""
+
+#: includes/enovathemes_vc.php:2437
+msgid "Insert youtube videos"
+msgstr ""
+
+#: includes/enovathemes_vc.php:2446 includes/enovathemes_vc.php:2500
+msgid "Video ID"
+msgstr ""
+
+#: includes/enovathemes_vc.php:2449
+msgid ""
+"For example https://www.youtube.com/watch?v=KDOLHClNTOI (Use video id after "
+"watch?v=)"
+msgstr ""
+
+#: includes/enovathemes_vc.php:2453 includes/enovathemes_vc.php:2507
+msgid "Width optional (without any string)"
+msgstr ""
+
+#: includes/enovathemes_vc.php:2464 includes/enovathemes_vc.php:2518
+msgid "Upload modal image"
+msgstr ""
+
+#: includes/enovathemes_vc.php:2472 includes/enovathemes_vc.php:2526
+msgid "Modal image size"
+msgstr ""
+
+#: includes/enovathemes_vc.php:2478 includes/enovathemes_vc.php:2532
+msgid "Custom modal video player image"
+msgstr ""
+
+#: includes/enovathemes_vc.php:2490
+msgid "Vimeo"
+msgstr ""
+
+#: includes/enovathemes_vc.php:2491
+msgid "Insert vimeo videos"
+msgstr ""
+
+#: includes/enovathemes_vc.php:2503
+msgid "For example http://vimeo.com/5121526 (Use video id after last /"
+msgstr ""
+
+#: includes/enovathemes_vc.php:2544
+msgid "Soundcloud"
+msgstr ""
+
+#: includes/enovathemes_vc.php:2545
+msgid "Insert soundcloud audio"
+msgstr ""
+
+#: includes/enovathemes_vc.php:2554
+msgid "Url"
+msgstr ""
+
+#: includes/enovathemes_vc.php:2557
+msgid "For example api.soundcloud.com/tracks/151325062"
+msgstr ""
+
+#: includes/enovathemes_vc.php:2561
+msgid "Width (optional)"
+msgstr ""
+
+#: includes/enovathemes_vc.php:2567
+msgid "Height (optional)"
+msgstr ""
+
+#: includes/enovathemes_vc.php:2578
+msgid "Instagram"
+msgstr ""
+
+#: includes/enovathemes_vc.php:2579
+msgid "Insert instagram photos"
+msgstr ""
+
+#: includes/enovathemes_vc.php:2588
+msgid "Username"
+msgstr ""
+
+#: includes/enovathemes_vc.php:2591
+msgid "Enter instagram username"
+msgstr ""
+
+#: includes/enovathemes_vc.php:2595
+msgid "Image size"
+msgstr ""
+
+#: includes/enovathemes_vc.php:2598
+msgid "Thumbnail"
+msgstr ""
+
+#: includes/enovathemes_vc.php:2601
+msgid "Original"
+msgstr ""
+
+#: includes/enovathemes_vc.php:2606
+msgid "Number of items"
+msgstr ""
+
+#: includes/enovathemes_vc.php:2661
+msgid "Upload logo"
+msgstr ""
+
+#: includes/enovathemes_vc.php:2670
+msgid "Upload retina logo"
+msgstr ""
+
+#: includes/enovathemes_vc.php:2685
+msgid "Google map"
+msgstr ""
+
+#: includes/enovathemes_vc.php:2686
+msgid "Inser google map"
+msgstr ""
+
+#: includes/enovathemes_vc.php:2695
+msgid "X coordinate"
+msgstr ""
+
+#: includes/enovathemes_vc.php:2698
+msgid "Use latitude coordinate for example 53.339381"
+msgstr ""
+
+#: includes/enovathemes_vc.php:2702
+msgid "Y coordinate"
+msgstr ""
+
+#: includes/enovathemes_vc.php:2705
+msgid "Use longitude coordinate for example -6.260405"
+msgstr ""
+
+#: includes/enovathemes_vc.php:2709
+msgid "Google map zoom level (from 1 to 19 without any string)"
+msgstr ""
+
+#: includes/enovathemes_vc.php:2718
+msgid "Roadmap"
+msgstr ""
+
+#: includes/enovathemes_vc.php:2719
+msgid "Satellite"
+msgstr ""
+
+#: includes/enovathemes_vc.php:2720
+msgid "Black"
+msgstr ""
+
+#: includes/enovathemes_vc.php:2721
+msgid "Grey"
+msgstr ""
+
+#: includes/enovathemes_vc.php:2726
+msgid "Width"
+msgstr ""
+
+#: includes/enovathemes_vc.php:2732
+msgid "Height"
+msgstr ""
+
+#: includes/enovathemes_vc.php:2738
+msgid "Upload custom marker"
+msgstr ""
+
+#: includes/enovathemes_vc.php:2744
+msgid "Animate marker"
+msgstr ""
+
+#: includes/enovathemes_vc.php:2756 includes/enovathemes_vc.php:3270
+#: includes/enovathemes_vc.php:3342
+msgid "Content"
+msgstr ""
+
+#: includes/enovathemes_vc.php:2766
+msgid "Counter"
+msgstr ""
+
+#: includes/enovathemes_vc.php:2767
+msgid "Insert number counter"
+msgstr ""
+
+#: includes/enovathemes_vc.php:2776
+msgid "Number"
+msgstr ""
+
+#: includes/enovathemes_vc.php:2779
+msgid "Insert an integer value to count to"
+msgstr ""
+
+#: includes/enovathemes_vc.php:2783
+msgid "Number prefix"
+msgstr ""
+
+#: includes/enovathemes_vc.php:2786
+msgid "Insert any prefix you want %,$, etc."
+msgstr ""
+
+#: includes/enovathemes_vc.php:2836
+msgid "Progress"
+msgstr ""
+
+#: includes/enovathemes_vc.php:2837
+msgid "Insert progress bar"
+msgstr ""
+
+#: includes/enovathemes_vc.php:2852 includes/enovathemes_vc.php:2887
+msgid "Percentage"
+msgstr ""
+
+#: includes/enovathemes_vc.php:2855 includes/enovathemes_vc.php:2890
+msgid "Only integer value, without any string"
+msgstr ""
+
+#: includes/enovathemes_vc.php:2859 includes/enovathemes_vc.php:2894
+msgid "Bar Color"
+msgstr ""
+
+#: includes/enovathemes_vc.php:2865 includes/enovathemes_vc.php:2900
+msgid "Track Color"
+msgstr ""
+
+#: includes/enovathemes_vc.php:2876
+msgid "Circle progress"
+msgstr ""
+
+#: includes/enovathemes_vc.php:2878
+msgid "Insert circle progress"
+msgstr ""
+
+#: includes/enovathemes_vc.php:2911
+msgid "Timer"
+msgstr ""
+
+#: includes/enovathemes_vc.php:2912
+msgid "Insert timer"
+msgstr ""
+
+#: includes/enovathemes_vc.php:2921
+msgid "End date to count to"
+msgstr ""
+
+#: includes/enovathemes_vc.php:2924
+msgid "Use format : June 7, 2025 15:03:25"
+msgstr ""
+
+#: includes/enovathemes_vc.php:2928
+msgid "Days label"
+msgstr ""
+
+#: includes/enovathemes_vc.php:2934
+msgid "Hours label"
+msgstr ""
+
+#: includes/enovathemes_vc.php:2940
+msgid "Minutes label"
+msgstr ""
+
+#: includes/enovathemes_vc.php:2946
+msgid "Seconds label"
+msgstr ""
+
+#: includes/enovathemes_vc.php:2957
+msgid "Accordion"
+msgstr ""
+
+#: includes/enovathemes_vc.php:2958
+msgid "Insert accordion"
+msgstr ""
+
+#: includes/enovathemes_vc.php:2971
+msgid "Collapsible"
+msgstr ""
+
+#: includes/enovathemes_vc.php:2979
+msgid "Accordion item"
+msgstr ""
+
+#: includes/enovathemes_vc.php:2989
+msgid "Open"
+msgstr ""
+
+#: includes/enovathemes_vc.php:3020
+msgid "Tab"
+msgstr ""
+
+#: includes/enovathemes_vc.php:3021
+msgid "Insert tab"
+msgstr ""
+
+#: includes/enovathemes_vc.php:3043
+msgid "Tabs center"
+msgstr ""
+
+#: includes/enovathemes_vc.php:3050
+msgid "Tab item"
+msgstr ""
+
+#: includes/enovathemes_vc.php:3110
+msgid "Person"
+msgstr ""
+
+#: includes/enovathemes_vc.php:3111
+msgid "Insert person"
+msgstr ""
+
+#: includes/enovathemes_vc.php:3123 includes/enovathemes_vc.php:3422
+msgid "Link"
+msgstr ""
+
+#: includes/enovathemes_vc.php:3144
+msgid "Subtitle"
+msgstr ""
+
+#: includes/enovathemes_vc.php:3150
+msgid "Box background color"
+msgstr ""
+
+#: includes/enovathemes_vc.php:3161 includes/enovathemes_vc.php:3225
+#: includes/enovathemes_vc.php:3303
+msgid "Testimonial"
+msgstr ""
+
+#: includes/enovathemes_vc.php:3162 includes/enovathemes_vc.php:3278
+msgid "Insert testimonials"
+msgstr ""
+
+#: includes/enovathemes_vc.php:3176 includes/enovathemes_vc.php:3367
+msgid "Layout"
+msgstr ""
+
+#: includes/enovathemes_vc.php:3245 includes/enovathemes_vc.php:3323
+msgid "Highlights"
+msgstr ""
+
+#: includes/enovathemes_vc.php:3252 includes/enovathemes_vc.php:3330
+msgid "Rating"
+msgstr ""
+
+#: includes/enovathemes_vc.php:3255 includes/enovathemes_vc.php:3333
+msgid "Poor"
+msgstr ""
+
+#: includes/enovathemes_vc.php:3256 includes/enovathemes_vc.php:3334
+msgid "Fair"
+msgstr ""
+
+#: includes/enovathemes_vc.php:3257 includes/enovathemes_vc.php:3335
+msgid "Average"
+msgstr ""
+
+#: includes/enovathemes_vc.php:3258 includes/enovathemes_vc.php:3336
+msgid "Good"
+msgstr ""
+
+#: includes/enovathemes_vc.php:3259 includes/enovathemes_vc.php:3337
+msgid "Excellent"
+msgstr ""
+
+#: includes/enovathemes_vc.php:3265 includes/enovathemes_vc.php:3590
+msgid "Highlight"
+msgstr ""
+
+#: includes/enovathemes_vc.php:3277
+msgid "Testimonial alternative"
+msgstr ""
+
+#: includes/enovathemes_vc.php:3352
+msgid "Clients"
+msgstr ""
+
+#: includes/enovathemes_vc.php:3354
+msgid "Insert clients"
+msgstr ""
+
+#: includes/enovathemes_vc.php:3395
+msgid "Client box background color"
+msgstr ""
+
+#: includes/enovathemes_vc.php:3401
+msgid "Client box border color"
+msgstr ""
+
+#: includes/enovathemes_vc.php:3409
+msgid "Client"
+msgstr ""
+
+#: includes/enovathemes_vc.php:3442
+msgid "Tagline"
+msgstr ""
+
+#: includes/enovathemes_vc.php:3443
+msgid "Insert tagline (call to action block with button)"
+msgstr ""
+
+#: includes/enovathemes_vc.php:3459
+msgid "Tagline title color"
+msgstr ""
+
+#: includes/enovathemes_vc.php:3465
+msgid "Tagline background color"
+msgstr ""
+
+#: includes/enovathemes_vc.php:3541
+msgid "Pricing table"
+msgstr ""
+
+#: includes/enovathemes_vc.php:3542
+msgid "Insert pricing table"
+msgstr ""
+
+#: includes/enovathemes_vc.php:3574
+msgid "Highlight color"
+msgstr ""
+
+#: includes/enovathemes_vc.php:3582
+msgid "Pricing table column"
+msgstr ""
+
+#: includes/enovathemes_vc.php:3596
+msgid "Label"
+msgstr ""
+
+#: includes/enovathemes_vc.php:3608
+msgid "Currency"
+msgstr ""
+
+#: includes/enovathemes_vc.php:3614
+msgid "Price"
+msgstr ""
+
+#: includes/enovathemes_vc.php:3620
+msgid "Plan"
+msgstr ""
+
+#: includes/enovathemes_vc.php:3659
+msgid "Popup banner"
+msgstr ""
+
+#: includes/enovathemes_vc.php:3660
+msgid ""
+"Insert popup banner (if you want to have the popup in entire site, put the "
+"banner inside footer)"
+msgstr ""
+
+#: includes/enovathemes_vc.php:3671
+msgid "Visible on mobile"
+msgstr ""
+
+#: includes/enovathemes_vc.php:3674
+msgid "Check this option if you want to display banner on mobile"
+msgstr ""
+
+#: includes/enovathemes_vc.php:3678
+msgid "Visible on tablet"
+msgstr ""
+
+#: includes/enovathemes_vc.php:3681
+msgid "Check this option if you want to display tablet on mobile"
+msgstr ""
+
+#: includes/enovathemes_vc.php:3685
+msgid "Use cookie"
+msgstr ""
+
+#: includes/enovathemes_vc.php:3688
+msgid ""
+"Toggle this option if you want to display your banner onces per visit session"
+msgstr ""
+
+#: includes/enovathemes_vc.php:3692
+msgid "Delay in ms"
+msgstr ""
+
+#: includes/enovathemes_vc.php:3699
+msgid "Effect"
+msgstr ""
+
+#: includes/enovathemes_vc.php:3701
+msgid "Fade in and scale"
+msgstr ""
+
+#: includes/enovathemes_vc.php:3702
+msgid "Slide in right"
+msgstr ""
+
+#: includes/enovathemes_vc.php:3703
+msgid "Slide in bottom"
+msgstr ""
+
+#: includes/enovathemes_vc.php:3704
+msgid "3d flip horizontal"
+msgstr ""
+
+#: includes/enovathemes_vc.php:3705
+msgid "3d flip vertical"
+msgstr ""
+
+#: includes/enovathemes_vc.php:3710
+msgid "Width in px"
+msgstr ""
+
+#: includes/enovathemes_vc.php:3716
+msgid "Height in px"
+msgstr ""
+
+#: includes/enovathemes_vc.php:3722 includes/enovathemes_vc.php:3968
+msgid "Background color"
+msgstr ""
+
+#: includes/enovathemes_vc.php:3728
+msgid "Border color"
+msgstr ""
+
+#: includes/enovathemes_vc.php:3734 includes/enovathemes_vc.php:3974
+msgid "Background image"
+msgstr ""
+
+#: includes/enovathemes_vc.php:3744
+msgid "Content boxes"
+msgstr ""
+
+#: includes/enovathemes_vc.php:3745
+msgid "Insert content boxes"
+msgstr ""
+
+#: includes/enovathemes_vc.php:3770
+msgid "Box gap"
+msgstr ""
+
+#: includes/enovathemes_vc.php:3777
+msgid "Box animation type"
+msgstr ""
+
+#: includes/enovathemes_vc.php:3783
+msgid "Box animation effect"
+msgstr ""
+
+#: includes/enovathemes_vc.php:3789
+msgid "Box icon size"
+msgstr ""
+
+#: includes/enovathemes_vc.php:3790 includes/enovathemes_vc.php:3798
+#: includes/enovathemes_vc.php:3805 includes/enovathemes_vc.php:3811
+msgid "Box icon"
+msgstr ""
+
+#: includes/enovathemes_vc.php:3804
+msgid "Box icon alignment"
+msgstr ""
+
+#: includes/enovathemes_vc.php:3816
+msgid "Scale out"
+msgstr ""
+
+#: includes/enovathemes_vc.php:3817
+msgid "Fill background"
+msgstr ""
+
+#: includes/enovathemes_vc.php:3825
+msgid "Content box"
+msgstr ""
+
+#: includes/enovathemes_vc.php:3849
+msgid "Icon link"
+msgstr ""
+
+#: includes/enovathemes_vc.php:3879
+msgid "Box icon shadow"
+msgstr ""
+
+#: includes/enovathemes_vc.php:3882
+msgid ""
+"Check this option if you want to have shadow on icon (make sure you have "
+"background or border color set)"
+msgstr ""
+
+#: includes/enovathemes_vc.php:3887 includes/enovathemes_vc.php:3894
+#: includes/enovathemes_vc.php:3901
+msgid "Icon hover"
+msgstr ""
+
+#: includes/enovathemes_vc.php:3912
+msgid "Split screen"
+msgstr ""
+
+#: includes/enovathemes_vc.php:3913
+msgid "Insert split screen"
+msgstr ""
+
+#: includes/enovathemes_vc.php:3927
+msgid "Split screen left part"
+msgstr ""
+
+#: includes/enovathemes_vc.php:3939
+msgid "Split screen right part"
+msgstr ""
+
+#: includes/enovathemes_vc.php:3951
+msgid "Split screen content"
+msgstr ""
+
+#: includes/enovathemes_vc.php:3997
+msgid "Recent events"
+msgstr ""
+
+#: includes/enovathemes_vc.php:3998
+msgid "Use this element to insert recent events"
+msgstr ""
+
+#: includes/enovathemes_vc.php:4008 includes/enovathemes_vc.php:4263
+msgid "Event container"
+msgstr ""
+
+#: includes/enovathemes_vc.php:4010 includes/enovathemes_vc.php:4265
+msgid "Boxed"
+msgstr ""
+
+#: includes/enovathemes_vc.php:4011 includes/enovathemes_vc.php:4266
+msgid "Wide"
+msgstr ""
+
+#: includes/enovathemes_vc.php:4017 includes/enovathemes_vc.php:4272
+msgid "Event layout type"
+msgstr ""
+
+#: includes/enovathemes_vc.php:4021 includes/enovathemes_vc.php:4124
+msgid "Simple"
+msgstr ""
+
+#: includes/enovathemes_vc.php:4027
+msgid "Events gap"
+msgstr ""
+
+#: includes/enovathemes_vc.php:4034
+msgid "Event size"
+msgstr ""
+
+#: includes/enovathemes_vc.php:4040 includes/enovathemes_vc.php:4290
+msgid "Event animation effect"
+msgstr ""
+
+#: includes/enovathemes_vc.php:4049
+msgid "Limit events to certain events?"
+msgstr ""
+
+#: includes/enovathemes_vc.php:4055
+msgid "Events"
+msgstr ""
+
+#: includes/enovathemes_vc.php:4059
+msgid "Enter comma separated events' slugs if you want to show certain events"
+msgstr ""
+
+#: includes/enovathemes_vc.php:4064
+msgid "Event number"
+msgstr ""
+
+#: includes/enovathemes_vc.php:4071 includes/enovathemes_vc.php:4172
+#: includes/enovathemes_vc.php:4320 includes/enovathemes_vc.php:4460
+#: includes/enovathemes_vc.php:4550 includes/enovathemes_vc.php:4630
+#: includes/enovathemes_vc.php:4710 includes/enovathemes_vc.php:4774
+#: includes/enovathemes_vc.php:4854 includes/enovathemes_vc.php:5097
+msgid "Category"
+msgstr ""
+
+#: includes/enovathemes_vc.php:4075 includes/enovathemes_vc.php:4176
+#: includes/enovathemes_vc.php:4324 includes/enovathemes_vc.php:4464
+#: includes/enovathemes_vc.php:4554 includes/enovathemes_vc.php:4634
+#: includes/enovathemes_vc.php:4714 includes/enovathemes_vc.php:4778
+#: includes/enovathemes_vc.php:4858 includes/enovathemes_vc.php:5154
+msgid ""
+"Enter comma separated categories slugs if you want to show certain categories"
+msgstr ""
+
+#: includes/enovathemes_vc.php:4080 includes/enovathemes_vc.php:4181
+#: includes/enovathemes_vc.php:4329 includes/enovathemes_vc.php:4468
+#: includes/enovathemes_vc.php:4558 includes/enovathemes_vc.php:4638
+#: includes/enovathemes_vc.php:4718 includes/enovathemes_vc.php:4782
+#: includes/enovathemes_vc.php:4862
+msgid "Operator"
+msgstr ""
+
+#: includes/enovathemes_vc.php:4084 includes/enovathemes_vc.php:4185
+#: includes/enovathemes_vc.php:4333 includes/enovathemes_vc.php:4472
+#: includes/enovathemes_vc.php:4562 includes/enovathemes_vc.php:4642
+#: includes/enovathemes_vc.php:4722 includes/enovathemes_vc.php:4786
+#: includes/enovathemes_vc.php:4866
+msgid "Select filter operator"
+msgstr ""
+
+#: includes/enovathemes_vc.php:4089
+msgid "Event filter"
+msgstr ""
+
+#: includes/enovathemes_vc.php:4092 includes/enovathemes_vc.php:4496
+msgid "Check this option if you want to have event filter"
+msgstr ""
+
+#: includes/enovathemes_vc.php:4106
+msgid "Recent posts"
+msgstr ""
+
+#: includes/enovathemes_vc.php:4107
+msgid "Use this element to insert recent posts"
+msgstr ""
+
+#: includes/enovathemes_vc.php:4117
+msgid "Post layout type"
+msgstr ""
+
+#: includes/enovathemes_vc.php:4120
+msgid "Masonry 1"
+msgstr ""
+
+#: includes/enovathemes_vc.php:4121
+msgid "Masonry 2"
+msgstr ""
+
+#: includes/enovathemes_vc.php:4122
+msgid "List"
+msgstr ""
+
+#: includes/enovathemes_vc.php:4130
+msgid "Post size"
+msgstr ""
+
+#: includes/enovathemes_vc.php:4137
+msgid "Post animation effect"
+msgstr ""
+
+#: includes/enovathemes_vc.php:4144
+msgid "Post excerpt length"
+msgstr ""
+
+#: includes/enovathemes_vc.php:4151
+msgid "Limit posts to certain posts?"
+msgstr ""
+
+#: includes/enovathemes_vc.php:4156
+msgid "Posts"
+msgstr ""
+
+#: includes/enovathemes_vc.php:4160
+msgid "Enter comma separated post slugs if you want to show certain posts"
+msgstr ""
+
+#: includes/enovathemes_vc.php:4165
+msgid "Post number"
+msgstr ""
+
+#: includes/enovathemes_vc.php:4190 includes/enovathemes_vc.php:4338
+#: includes/enovathemes_vc.php:4477 includes/enovathemes_vc.php:4567
+#: includes/enovathemes_vc.php:4647 includes/enovathemes_vc.php:4791
+#: includes/enovathemes_vc.php:4871 includes/enovathemes_vc.php:4950
+#: includes/enovathemes_vc.php:5034 includes/enovathemes_vc.php:5105
+#: includes/enovathemes_vc.php:5158
+msgid "Order by"
+msgstr ""
+
+#: includes/enovathemes_vc.php:4194
+#, php-format
+msgid "Select how to sort retrieved posts. More at %s."
+msgstr ""
+
+#: includes/enovathemes_vc.php:4198 includes/enovathemes_vc.php:4346
+#: includes/enovathemes_vc.php:4485 includes/enovathemes_vc.php:4575
+#: includes/enovathemes_vc.php:4655 includes/enovathemes_vc.php:4799
+#: includes/enovathemes_vc.php:4879 includes/enovathemes_vc.php:4958
+#: includes/enovathemes_vc.php:5042 includes/enovathemes_vc.php:5113
+#: includes/enovathemes_vc.php:5166
+msgid "Sort order"
+msgstr ""
+
+#: includes/enovathemes_vc.php:4202 includes/enovathemes_vc.php:4350
+#: includes/enovathemes_vc.php:4489 includes/enovathemes_vc.php:4579
+#: includes/enovathemes_vc.php:4659 includes/enovathemes_vc.php:4803
+#: includes/enovathemes_vc.php:4883 includes/enovathemes_vc.php:4962
+#: includes/enovathemes_vc.php:5046 includes/enovathemes_vc.php:5117
+#: includes/enovathemes_vc.php:5170
+#, php-format
+msgid "Designates the ascending or descending order. More at %s."
+msgstr ""
+
+#: includes/enovathemes_vc.php:4211
+msgid "All"
+msgstr ""
+
+#: includes/enovathemes_vc.php:4252
+msgid "Restaurant menu"
+msgstr ""
+
+#: includes/enovathemes_vc.php:4253
+msgid "Use this element to insert restaurant menu"
+msgstr ""
+
+#: includes/enovathemes_vc.php:4275 includes/enovathemes_vc.php:4432
+#: includes/enovathemes_vc.php:4522 includes/enovathemes_vc.php:4602
+#: includes/enovathemes_vc.php:4682 includes/enovathemes_vc.php:4746
+#: includes/enovathemes_vc.php:4826 includes/enovathemes_vc.php:4922
+#: includes/enovathemes_vc.php:5006 includes/enovathemes_vc.php:5069
+msgid "Masonry"
+msgstr ""
+
+#: includes/enovathemes_vc.php:4277
+msgid "List with image"
+msgstr ""
+
+#: includes/enovathemes_vc.php:4278
+msgid "List without image"
+msgstr ""
+
+#: includes/enovathemes_vc.php:4284
+msgid "Menu post size"
+msgstr ""
+
+#: includes/enovathemes_vc.php:4299
+msgid "Limit menu items to certain menu items?"
+msgstr ""
+
+#: includes/enovathemes_vc.php:4304
+msgid "Menu items"
+msgstr ""
+
+#: includes/enovathemes_vc.php:4308
+msgid ""
+"Enter comma separated menu items' slugs if you want to show certain menu items"
+msgstr ""
+
+#: includes/enovathemes_vc.php:4313
+msgid "Menu number"
+msgstr ""
+
+#: includes/enovathemes_vc.php:4342
+#, php-format
+msgid "Select how to sort retrieved menu items. More at %s."
+msgstr ""
+
+#: includes/enovathemes_vc.php:4354
+msgid "Menu filter"
+msgstr ""
+
+#: includes/enovathemes_vc.php:4357
+msgid "Check this option if you want to have menu filter"
+msgstr ""
+
+#: includes/enovathemes_vc.php:4367
+msgid "Define default filter"
+msgstr ""
+
+#: includes/enovathemes_vc.php:4405
+msgid "Woocommerce AJAX cart"
+msgstr ""
+
+#: includes/enovathemes_vc.php:4406
+msgid "Insert AJAX add to cart"
+msgstr ""
+
+#: includes/enovathemes_vc.php:4407 includes/enovathemes_vc.php:4420
+#: includes/enovathemes_vc.php:4510 includes/enovathemes_vc.php:4590
+#: includes/enovathemes_vc.php:4670 includes/enovathemes_vc.php:4734
+#: includes/enovathemes_vc.php:4814 includes/enovathemes_vc.php:4910
+#: includes/enovathemes_vc.php:4973 includes/enovathemes_vc.php:4994
+#: includes/enovathemes_vc.php:5057 includes/enovathemes_vc.php:5128
+msgid "WooCommerce"
+msgstr ""
+
+#: includes/enovathemes_vc.php:4418
+msgid "Recent products"
+msgstr ""
+
+#: includes/enovathemes_vc.php:4419
+msgid "Lists recent products"
+msgstr ""
+
+#: includes/enovathemes_vc.php:4429 includes/enovathemes_vc.php:4519
+#: includes/enovathemes_vc.php:4599 includes/enovathemes_vc.php:4679
+#: includes/enovathemes_vc.php:4743 includes/enovathemes_vc.php:4823
+#: includes/enovathemes_vc.php:4919 includes/enovathemes_vc.php:5003
+#: includes/enovathemes_vc.php:5066
+msgid "Product layout type"
+msgstr ""
+
+#: includes/enovathemes_vc.php:4439 includes/enovathemes_vc.php:4529
+#: includes/enovathemes_vc.php:4609 includes/enovathemes_vc.php:4689
+#: includes/enovathemes_vc.php:4753 includes/enovathemes_vc.php:4833
+#: includes/enovathemes_vc.php:4929 includes/enovathemes_vc.php:5013
+#: includes/enovathemes_vc.php:5076 includes/enovathemes_vc.php:5137
+msgid "Product animation effect"
+msgstr ""
+
+#: includes/enovathemes_vc.php:4445 includes/enovathemes_vc.php:4535
+#: includes/enovathemes_vc.php:4615 includes/enovathemes_vc.php:4695
+#: includes/enovathemes_vc.php:4759 includes/enovathemes_vc.php:4839
+#: includes/enovathemes_vc.php:4935 includes/enovathemes_vc.php:5019
+#: includes/enovathemes_vc.php:5082 includes/enovathemes_vc.php:5143
+msgid "Columns"
+msgstr ""
+
+#: includes/enovathemes_vc.php:4452 includes/enovathemes_vc.php:4542
+#: includes/enovathemes_vc.php:4622 includes/enovathemes_vc.php:4702
+#: includes/enovathemes_vc.php:4766 includes/enovathemes_vc.php:4846
+#: includes/enovathemes_vc.php:4942 includes/enovathemes_vc.php:5089
+msgid "Per page"
+msgstr ""
+
+#: includes/enovathemes_vc.php:4456 includes/enovathemes_vc.php:4546
+#: includes/enovathemes_vc.php:4626 includes/enovathemes_vc.php:4706
+#: includes/enovathemes_vc.php:4770 includes/enovathemes_vc.php:4850
+#: includes/enovathemes_vc.php:4946 includes/enovathemes_vc.php:5093
+msgid "The \"per_page\" shortcode determines how many products to show on the page"
+msgstr ""
+
+#: includes/enovathemes_vc.php:4481 includes/enovathemes_vc.php:4571
+#: includes/enovathemes_vc.php:4651 includes/enovathemes_vc.php:4795
+#: includes/enovathemes_vc.php:4875 includes/enovathemes_vc.php:4954
+#: includes/enovathemes_vc.php:5038 includes/enovathemes_vc.php:5109
+#: includes/enovathemes_vc.php:5162
+#, php-format
+msgid "Select how to sort retrieved products. More at %s."
+msgstr ""
+
+#: includes/enovathemes_vc.php:4493
+msgid "Product filter"
+msgstr ""
+
+#: includes/enovathemes_vc.php:4508
+msgid "Featured products"
+msgstr ""
+
+#: includes/enovathemes_vc.php:4509
+msgid "Lists featured products"
+msgstr ""
+
+#: includes/enovathemes_vc.php:4588
+msgid "Sale products"
+msgstr ""
+
+#: includes/enovathemes_vc.php:4589
+msgid "Lists sale products"
+msgstr ""
+
+#: includes/enovathemes_vc.php:4668
+msgid "Best selling products"
+msgstr ""
+
+#: includes/enovathemes_vc.php:4669
+msgid "Lists best selling products"
+msgstr ""
+
+#: includes/enovathemes_vc.php:4732
+msgid "Top rated products"
+msgstr ""
+
+#: includes/enovathemes_vc.php:4733
+msgid "Lists top rated products"
+msgstr ""
+
+#: includes/enovathemes_vc.php:4812
+msgid "Attribute products"
+msgstr ""
+
+#: includes/enovathemes_vc.php:4813
+msgid "List attribute products"
+msgstr ""
+
+#: includes/enovathemes_vc.php:4887
+msgid "Attribute"
+msgstr ""
+
+#: includes/enovathemes_vc.php:4891
+msgid "List of product taxonomy attribute"
+msgstr ""
+
+#: includes/enovathemes_vc.php:4895
+msgid "Filter"
+msgstr ""
+
+#: includes/enovathemes_vc.php:4899
+msgid "Taxonomy values"
+msgstr ""
+
+#: includes/enovathemes_vc.php:4909
+msgid "Lists related products"
+msgstr ""
+
+#: includes/enovathemes_vc.php:4971 woocommerce/content-product-header.php:73
+msgid "Product"
+msgstr ""
+
+#: includes/enovathemes_vc.php:4972
+msgid "Show a single product by ID"
+msgstr ""
+
+#: includes/enovathemes_vc.php:4981
+msgid "Select identificator"
+msgstr ""
+
+#: includes/enovathemes_vc.php:4983
+msgid "Input product ID"
+msgstr ""
+
+#: includes/enovathemes_vc.php:4992 includes/enovathemes_vc.php:5026
+msgid "Products"
+msgstr ""
+
+#: includes/enovathemes_vc.php:4993
+msgid "Show multiple products by ID"
+msgstr ""
+
+#: includes/enovathemes_vc.php:5030
+msgid "Enter comma separated products ids"
+msgstr ""
+
+#: includes/enovathemes_vc.php:5055
+msgid "Product category"
+msgstr ""
+
+#: includes/enovathemes_vc.php:5056
+msgid "Show multiple products in a category"
+msgstr ""
+
+#: includes/enovathemes_vc.php:5101
+msgid "Product category list"
+msgstr ""
+
+#: includes/enovathemes_vc.php:5126
+msgid "Product categories"
+msgstr ""
+
+#: includes/enovathemes_vc.php:5127
+msgid "Display product categories loop"
+msgstr ""
+
+#: includes/enovathemes_vc.php:5150
+msgid "Categories"
+msgstr ""
+
+#: includes/menu/edit_custom_walker.php:85
+#, php-format
+msgid "%s (Invalid)"
+msgstr ""
+
+#: includes/menu/edit_custom_walker.php:89
+#, php-format
+msgid "%s (Pending)"
+msgstr ""
+
+#: includes/menu/edit_custom_walker.php:113
+msgid "Move up"
+msgstr ""
+
+#: includes/menu/edit_custom_walker.php:126
+msgid "Move down"
+msgstr ""
+
+#: includes/menu/edit_custom_walker.php:128
+#: includes/menu/edit_custom_walker.php:130
+msgid "Edit Menu Item"
+msgstr ""
+
+#: includes/menu/edit_custom_walker.php:139
+msgid "URL"
+msgstr ""
+
+#: includes/menu/edit_custom_walker.php:146
+msgid "Navigation Label"
+msgstr ""
+
+#: includes/menu/edit_custom_walker.php:152
+msgid "Title Attribute"
+msgstr ""
+
+#: includes/menu/edit_custom_walker.php:159
+msgid "Open link in a new window/tab"
+msgstr ""
+
+#: includes/menu/edit_custom_walker.php:164
+msgid "CSS Classes (optional)"
+msgstr ""
+
+#: includes/menu/edit_custom_walker.php:170
+msgid "Link Relationship (XFN)"
+msgstr ""
+
+#: includes/menu/edit_custom_walker.php:176
+msgid "Description"
+msgstr ""
+
+#: includes/menu/edit_custom_walker.php:178
+msgid ""
+"The description will be displayed in the menu if the current theme supports it."
+msgstr ""
+
+#: includes/menu/edit_custom_walker.php:189
+msgid "Megamenu"
+msgstr ""
+
+#: includes/menu/edit_custom_walker.php:197
+msgid "Megamenu width"
+msgstr ""
+
+#: includes/menu/edit_custom_walker.php:199
+msgid "grid aligned"
+msgstr ""
+
+#: includes/menu/edit_custom_walker.php:200
+msgid "50%"
+msgstr ""
+
+#: includes/menu/edit_custom_walker.php:201
+msgid "60%"
+msgstr ""
+
+#: includes/menu/edit_custom_walker.php:202
+msgid "75%"
+msgstr ""
+
+#: includes/menu/edit_custom_walker.php:207
+msgid "Megamenu columns"
+msgstr ""
+
+#: includes/menu/edit_custom_walker.php:209
+msgid "1"
+msgstr ""
+
+#: includes/menu/edit_custom_walker.php:210
+msgid "2"
+msgstr ""
+
+#: includes/menu/edit_custom_walker.php:211
+msgid "3"
+msgstr ""
+
+#: includes/menu/edit_custom_walker.php:212
+msgid "4"
+msgstr ""
+
+#: includes/menu/edit_custom_walker.php:213
+msgid "5"
+msgstr ""
+
+#: includes/menu/edit_custom_walker.php:214
+msgid "6"
+msgstr ""
+
+#: includes/menu/edit_custom_walker.php:219
+msgid "Megamenu background image"
+msgstr ""
+
+#: includes/menu/edit_custom_walker.php:223
+msgid "Remove image"
+msgstr ""
+
+#: includes/menu/edit_custom_walker.php:231
+msgid "Submenu item label text"
+msgstr ""
+
+#: includes/menu/edit_custom_walker.php:237
+msgid "Submenu item label color"
+msgstr ""
+
+#: includes/menu/edit_custom_walker.php:244
+msgid "Font Awesome icon name"
+msgstr ""
+
+#: includes/menu/edit_custom_walker.php:250
+msgid "Display as button"
+msgstr ""
+
+#: includes/menu/edit_custom_walker.php:257
+msgid "Border radius"
+msgstr ""
+
+#: includes/menu/edit_custom_walker.php:263
+msgid "Button text color (regular/hover)"
+msgstr ""
+
+#: includes/menu/edit_custom_walker.php:270
+msgid "Button background color (regular/hover)"
+msgstr ""
+
+#: includes/menu/edit_custom_walker.php:277
+msgid "Button border color (regular/hover)"
+msgstr ""
+
+#: includes/menu/edit_custom_walker.php:291
+#, php-format
+msgid "Original: %s"
+msgstr ""
+
+#: includes/menu/edit_custom_walker.php:304
+msgid "Remove"
+msgstr ""
+
+#: includes/menu/edit_custom_walker.php:305
+msgid "Cancel"
+msgstr ""
+
+#: includes/photoswip.php:19
+msgid "Close (Esc)"
+msgstr ""
+
+#: includes/photoswip.php:20
+msgid "Share"
+msgstr ""
+
+#: includes/photoswip.php:21
+msgid "Toggle fullscreen"
+msgstr ""
+
+#: includes/photoswip.php:22
+msgid "Zoom in/out"
+msgstr ""
+
+#: includes/photoswip.php:38
+msgid "Previous (arrow left)"
+msgstr ""
+
+#: includes/photoswip.php:41
+msgid "Next (arrow right)"
+msgstr ""
+
+#: search.php:28
+msgid "Search"
+msgstr ""
+
+#: search.php:46
+msgid " search results for"
+msgstr ""
+
+#: search.php:69
+msgid "Read more"
+msgstr ""
+
+#: search.php:76
+msgid "Suggestions:"
+msgstr ""
+
+#: search.php:78
+msgid "Make sure that all words are spelled correctly"
+msgstr ""
+
+#: search.php:79
+msgid "Try different keywords"
+msgstr ""
+
+#: search.php:80
+msgid "Try more general keywords"
+msgstr ""
+
+#: search.php:81
+msgid "Try fewer keywords"
+msgstr ""
+
+#: searchform.php:3
+msgid "Search..."
+msgstr ""
+
+#: woocommerce/content-before-product-content.php:58
+msgid "Show All"
+msgstr ""
+
+#: woocommerce/content-product-header.php:67
+msgid "Wishlist"
+msgstr ""
+
+#: woocommerce/content-product-loop.php:8
+msgid ""
+"\"Wide\" shop container does not work with active shop sidebar. Please either "
+"set \"Shop sidebar position\" to \"None\" or switch \"Shop container\" to \"Boxed"
+"\""
+msgstr ""

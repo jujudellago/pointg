@@ -1,0 +1,217 @@
+<wpml-config>
+    <custom-fields>
+        <custom-field action="copy_once">audio_mp3</custom-field>
+        <custom-field action="copy_once">audio_ogg</custom-field>
+        <custom-field action="copy_once">audio_embed</custom-field>
+        <custom-field action="copy_once">video_mp4</custom-field>
+        <custom-field action="copy_once">video_ogv</custom-field>
+        <custom-field action="copy_once">video_webm</custom-field>
+        <custom-field action="copy_once">video_embed</custom-field>
+        <custom-field action="copy_once">video_poster</custom-field>
+        <custom-field action="copy_once">link_url</custom-field>
+        <custom-field action="copy_once">quote_author</custom-field>
+        <custom-field action="copy_once">featured_media</custom-field>
+        <custom-field action="copy_once">layout</custom-field>
+        <custom-field action="copy_once">booking_closed</custom-field>
+        <custom-field action="copy_once">booking_closed_message</custom-field>
+        <custom-field action="copy_once">event_date</custom-field>
+        <custom-field action="copy_once">event_date_unix</custom-field>
+        <custom-field action="copy_once">event_time</custom-field>
+        <custom-field action="copy_once">event_meta</custom-field>
+        <custom-field action="copy_once">format</custom-field>
+        <custom-field action="copy_once">menu_width</custom-field>
+        <custom-field action="copy_once">menu_price</custom-field>
+        <custom-field action="copy_once">menu_highlight</custom-field>
+        <custom-field action="copy_once">menu_spicy</custom-field>
+        <custom-field action="copy_once">menu_vegetarian</custom-field>
+        <custom-field action="copy_once">menu_gluten</custom-field>
+        <custom-field action="copy_once">blank</custom-field>
+        <custom-field action="copy_once">one_page</custom-field>
+        <custom-field action="copy_once">rev_slider</custom-field>
+        <custom-field action="copy_once">title_section</custom-field>
+        <custom-field action="copy_once">title_section_back_color</custom-field>
+        <custom-field action="copy_once">title_section_back_img</custom-field>
+        <custom-field action="copy_once">title_section_back_img_repeat</custom-field>
+        <custom-field action="copy_once">title_section_back_img_position</custom-field>
+        <custom-field action="copy_once">title_section_back_img_attachment</custom-field>
+        <custom-field action="copy_once">title_section_back_img_size</custom-field>
+        <custom-field action="copy_once">title_section_parallax</custom-field>
+        <custom-field action="copy_once">title_section_title_color</custom-field>
+        <custom-field action="copy_once">title_section_title_back_color</custom-field>
+        <custom-field action="copy_once">title_section_subtitle_color</custom-field>
+        <custom-field action="copy_once">title_section_subtitle_back_color</custom-field>
+        <custom-field action="copy_once">breadcrumbs_text_color</custom-field>
+        <custom-field action="copy_once">breadcrumbs_back_color</custom-field>
+        <custom-field action="copy_once">breadcrumbs_separator_color</custom-field>
+        <custom-field action="translate">title_section_subtitle</custom-field>
+        <custom-field action="translate">status_author</custom-field>
+        <custom-field action="translate">quote_author</custom-field>
+        <custom-field action="translate">menu_ingredients</custom-field>
+        <custom-field action="translate">menu_label</custom-field>
+    </custom-fields>
+    <custom-types>
+        <custom-type translate="1">et-event</custom-type>
+        <custom-type translate="1">menu</custom-type>
+    </custom-types>
+    <taxonomies>
+        <taxonomy translate="1">event-category</taxonomy>
+        <taxonomy translate="1">menu-category</taxonomy>
+    </taxonomies>  
+    <admin-texts>
+        <key name="goodresto_enovathemes">
+            <key name="header-top-slogan" />
+            <key name="booking-text" />
+            <key name="working-hours-text" />
+            <key name="under-construction-slogan" />
+            <key name="sidebar-copyright" />
+            <key name="blog-title-text" />
+            <key name="blog-subtitle-text" />
+            <key name="event-title-text" />
+            <key name="event-subtitle-text" />
+            <key name="menu-title-text" />
+            <key name="menu-subtitle-text" />
+            <key name="product-title-text" />
+            <key name="product-subtitle-text" />
+            <key name="tech-404-text" />
+        </key>
+    </admin-texts>    
+    <language-switcher-settings>
+        <key name="icl_lang_sel_config">
+            <key name="font-current-normal">#9e9e9e</key>
+            <key name="font-current-hover">#444444</key>
+            <key name="background-current-normal">#f1f1f1</key>
+            <key name="background-current-hover">#eeeeee</key>
+            <key name="font-other-normal">#9e9e9e</key>
+            <key name="font-other-hover">#444444</key>
+            <key name="background-other-normal">#f1f1f1</key>
+            <key name="background-other-hover">#eeeeee</key>
+            <key name="border">#e0e0e0</key>
+        </key>
+        <key name="icl_lang_sel_footer_config">
+            <key name="font-current-normal">#ffffff</key>
+            <key name="font-current-hover">#ffffff</key>
+            <key name="background-current-normal">#19262b</key>
+            <key name="background-current-hover">#19262b</key>
+            <key name="font-other-normal">#ffffff</key>
+            <key name="font-other-hover">#ffffff</key>
+            <key name="background-other-normal">#19262b</key>
+            <key name="background-other-hover">#19262b</key>
+            <key name="border">#19262b</key>
+        </key>    
+        <key name="icl_language_switcher_sidebar">0</key>  
+        <key name="icl_widget_title_show">0</key>
+        <key name="icl_lang_sel_type">dropdown</key>
+        <key name="icl_lso_link_empty">0</key>
+        <key name="icl_lso_flags">0</key>
+        <key name="icl_lso_native_lang">1</key>
+        <key name="icl_lso_display_lang">1</key>
+        <key name="icl_lang_sel_footer">0</key>
+        <key name="icl_post_availability">0</key>
+        <key name="icl_post_availability_position">below</key>
+        <key name="icl_post_availability_text">This post is also available in: %s</key>
+    </language-switcher-settings>
+    <shortcodes>
+        <shortcode>
+            <tag>et_typeit</tag>
+            <attributes>
+                <attribute>main_title</attribute>
+                <attribute>string_1</attribute>
+                <attribute>string_2</attribute>
+                <attribute>string_3</attribute>
+                <attribute>string_4</attribute>
+                <attribute>string_5</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>et_title_icon</tag>
+            <attributes>
+                <attribute>title</attribute>
+                <attribute>subtitle</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>et_popup</tag>
+            <attributes>
+                <attribute>message</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>et_alert</tag>
+            <attributes>
+                <attribute>content</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>et_mailchimp</tag>
+            <attributes>
+                <attribute>email_placeholder</attribute>
+                <attribute>button_placeholder</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>et_icon_list</tag>
+            <attributes>
+                <attribute>content</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>et_button</tag>
+            <attributes>
+                <attribute>button_text</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>et_image</tag>
+            <attributes>
+                <attribute>title</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>et_image_content</tag>
+            <attributes>
+                <attribute>content</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>et_progress</tag>
+            <attributes>
+                <attribute>title</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>et_timer</tag>
+            <attributes>
+                <attribute>days</attribute>
+                <attribute>hours</attribute>
+                <attribute>minutes</attribute>
+                <attribute>seconds</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>et_accordion_item</tag>
+            <attributes>
+                <attribute>title</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>et_tab_item</tag>
+            <attributes>
+                <attribute>title</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>et_tagline</tag>
+            <attributes>
+                <attribute>title</attribute>
+                <attribute>button_text</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>et_pricing_item</tag>
+            <attributes>
+                <attribute>title</attribute>
+                <attribute>plan</attribute>
+            </attributes>
+        </shortcode>
+    </shortcodes>       
+</wpml-config>
